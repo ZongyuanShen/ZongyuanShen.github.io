@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2023-08-24
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our paper [“SMART: Self-Morphing Adaptive Replanning Tree”](https://ieeexplore.ieee.org/abstract/document/10250928) was accepted to IEEE Robotics and Automation Letters (RA-L).
