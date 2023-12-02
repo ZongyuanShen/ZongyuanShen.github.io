@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am honored to be awarded the ECE Fall 2021 TA award.
+I am honored to be awarded the ECE Fall 2021 best TA award.
