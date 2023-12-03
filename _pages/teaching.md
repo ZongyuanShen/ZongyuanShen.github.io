@@ -23,7 +23,7 @@ nav_order: 3
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">Spring and Fall 2018-present: Teaching Assistant</h6>
     <ul class="font-weight-light list-group list-group-flush">
-      <li class="list-group-item">○ Undergraduate-level introduction to analysis of linear systems and signals, taught by <a href="https://www.bme.uconn.edu/faculty-staff/core-faculty/escabi-monty/" target="_blank">Prof. Monty Escabi</a> and  <a href="https://www.ee.uconn.edu/liang-zhang/" target="_blank">Prof. Liang Zhang</a>.</li>
+      <li class="list-group-item">○ It is an intermediate undergraduate course taught by <a href="https://www.bme.uconn.edu/faculty-staff/core-faculty/escabi-monty/" target="_blank">Prof. Monty Escabi</a> and  <a href="https://www.ee.uconn.edu/liang-zhang/" target="_blank">Prof. Liang Zhang</a>. Topics include representation of signals in the time and frequency domains and system analysis using Fourier, Laplace, and z transforms.</li>
       <li class="list-group-item">○ I mentored students working on course projects, held discussion section, and graded homeworks and exams.</li>
       <li class="list-group-item">○ I was awarded the ECE Fall 2021 Teaching Assistant Award.</li>
     </ul>
