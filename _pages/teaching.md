@@ -92,3 +92,18 @@ nav_order: 3
 </div>
 
 <h3 class="mt-4">Research Mentorship</h3>
+
+<div class="p-3">
+
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="font-weight-bold">Master's Student</h5>
+      </div>
+    </div>
+
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item"> <b>Reema Raval</b> (ECE at University of Connecticut)
+        <h6 class="mt-2 mt-sm-0">Research on Risk-Aware Motion Planning for Curvature-Constrained Vehicles under Motion Uncertainty (2023-2024).</h6>
+      </li>
+    </ul>
+</div>
