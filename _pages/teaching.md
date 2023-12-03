@@ -92,8 +92,8 @@ nav_order: 3
 </div>
 
 <h3 class="mt-4">Research Mentorship</h3>
-
-<div class="p-3">
+<div class="card mt-3">
+  <div class="p-3">
 
     <div class="row">
       <div class="col-sm-10">
@@ -106,4 +106,5 @@ nav_order: 3
         <h6 class="mt-2 mt-sm-0">Research on Risk-Aware Motion Planning for Curvature-Constrained Vehicles under Motion Uncertainty (2023-2024).</h6>
       </li>
     </ul>
+  </div>
 </div>
