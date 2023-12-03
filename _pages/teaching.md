@@ -9,7 +9,7 @@ nav_order: 3
 
 <h3 class="mt-4">University of Connecticut</h3>
 
-<div class="card mt-3">
+<div class="card">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
