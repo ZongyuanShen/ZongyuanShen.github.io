@@ -71,3 +71,23 @@ nav_order: 3
     </ul>
   </div>
 </div>
+
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="font-weight-bold">Introduction to Digital Signal Processing</h5>
+      </div>
+      <div class="col-sm-2 text-left text-sm-right">
+        <span class="badge font-weight-bold blue darken-1 text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/4131/" target="_blank">
+            4131
+        </span>
+      </div>
+    </div>
+    <h6 class="font-italic mt-2 mt-sm-0">Spring and Fall 2018-present: Teaching Assistant</h6>
+    <ul class="font-weight-light list-group list-group-flush">
+      <li class="list-group-item">○ It is an intermediate undergraduate course taught by <a href="https://www.ee.uconn.edu/peter-willett/" target="_blank">Prof. Peter Willett</a>. Topics include digital filters, frequency response, canonic realizations and state equations, Fourier methods for discrete signal representation.</li>
+      <li class="list-group-item">○ I held office hours and graded homeworks</li>
+    </ul>
+  </div>
+</div>
