@@ -44,7 +44,7 @@ nav_order: 3
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">Fall 2023: Teaching Assistant and Co-Designer </h6>
     <ul class="font-weight-light list-group list-group-flush">
-      <li class="list-group-item">○ Undergraduate-level introduction to the fundamentals of motion planning of robots, taught by <a href="https://www.ee.uconn.edu/shalabh-gupta/" target="_blank">Prof. Shalabh Gupta</a> </li>
+      <li class="list-group-item">○ This course covers the fundamentals of motion planning of robots, taught by <a href="https://www.ee.uconn.edu/shalabh-gupta/" target="_blank">Prof. Shalabh Gupta</a>. Topics include sensing systems for obstacle avoidance and environment mapping, robot localization, shortest path planning using potential field-based, grid-based and sampling-based methods, coverage path planning using cellular decomposition, spanning trees and potential fields, deep neural networks and their application to path planning, motion planning under constraints, adaptive planning in changing environments. </li>
       <li class="list-group-item">○ I co-organized the course, designed homework and course project, made lecture slide and video.</li>
       <li class="list-group-item">○ I mentored students working on course projects, held discussion section, and graded homeworks and exams.</li>
     </ul>
