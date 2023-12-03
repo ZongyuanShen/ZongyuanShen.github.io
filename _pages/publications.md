@@ -13,4 +13,10 @@ nav_order: 2
 <h1 class="year" id="journal">Journal Papers</h1>
 {% bibliography -f journal %}
 
+<h2 class="year" id="conference">Conference Papers</h2>
+{% bibliography -f conference %}
+
+<h3 class="year" id="thesis">Thesis</h3>
+{% bibliography -f thesis %}
+
 </div>
