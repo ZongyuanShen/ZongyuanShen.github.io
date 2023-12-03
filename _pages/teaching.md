@@ -7,17 +7,17 @@ nav: true
 nav_order: 3
 ---
 
-<h3 class="mt-4">aa</h3>
+<h3 class="mt-4">University of Connecticut</h3>
 
 <div class="card mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="font-weight-bold">aa</h5>
+        <h5 class="font-weight-bold">Signal and Systems</h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold light-green darken-1 text-uppercase align-middle" href="https://www.cs.cmu.edu/~pradeepr/courses/701/2018-spring/" target="_blank">
-            10-701
+        <span class="badge font-weight-bold light-green darken-1 text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/3101/" target="_blank">
+            3101
         </span>
       </div>
     </div>
