@@ -84,10 +84,9 @@ nav_order: 3
         </span>
       </div>
     </div>
-    <h6 class="font-italic mt-2 mt-sm-0">Spring 2018: Teaching Assistant</h6>
+    <h6 class="font-italic mt-2 mt-sm-0">Spring 2018: Grader</h6>
     <ul class="font-weight-light list-group list-group-flush">
       <li class="list-group-item">○ It is an intermediate undergraduate course taught by <a href="https://www.ee.uconn.edu/peter-willett/" target="_blank">Prof. Peter Willett</a>. Topics include digital filters, frequency response, canonic realizations and state equations, Fourier methods for discrete signal representation.</li>
-      <li class="list-group-item">○ I held office hours and graded homeworks</li>
     </ul>
   </div>
 </div>
