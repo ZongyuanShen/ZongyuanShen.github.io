@@ -8,18 +8,7 @@ category: work
 related_publications: 
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Typical operations of autonomous vehicles such as structural inspection, floor cleaning, lawn mowing, terrain mapping, oil spill cleaning, arable farming, usually require covering of all points in the search area, i.e., Coverage Path Planning (CPP). Often, these operations are performed in either completely unknown or partially known environments where the information on the exact geometrical shapes and locations, of obstacles and map boundaries, may be incorrect or incomplete. Therefore, it is essential to utilize online (i.e., sensor-based) CPP methods that can dynamically unfold the environment via discovering unknown obstacles on the path; thus facilitating online trajectory adaptation, obstacle avoidance, mapping boundaries, and complete coverage.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
