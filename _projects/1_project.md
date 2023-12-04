@@ -65,3 +65,8 @@ Now, I am working on the online CPP problem in a number of scenarios as listed b
 <div class="caption">
     Figure 3: Performance evaluation for CT-CPP as compared to TF-CPP.
 </div>
+
+**Related Papers:**
+- Z. Shen, J. Song, K. Mittal, and S. Gupta, “CT-CPP: Coverage path planning for 3D terrain reconstruction using dynamic coverage trees,” IEEE Robotics and Automation Letters, vol. 7, no. 1, pp. 135–142, Jan. 2022.
+- Z. Shen, J. Song, K. Mittal, and S. Gupta, “Autonomous 3-D mapping and safe-path planning for underwater terrain reconstruction using multi-level coverage trees,” in Proc. OCEANS'17 MTS/IEEE, Anchorage, AK, USA, Sep. 2017, pp. 1–6.
+- Z. Shen, J. Song, K. Mittal, and S. Gupta, “An autonomous integrated system for 3-d underwater terrain map reconstruction,” in Proc. OCEANS'16 MTS/IEEE, Monterey, CA, USA, Sep. 2016, pp. 1–6.
