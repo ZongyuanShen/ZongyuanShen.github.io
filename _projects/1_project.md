@@ -25,14 +25,11 @@ Typical operations of autonomous vehicles such as structural inspection, floor c
 <div class="caption">
     Figure 1: Applications of coverage path planning. On the left, underwater terrain mapping. Middle, arable farming. Right, floor cleaning.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+
+Now, I am working on the online CPP problem in a number of scenarios as listed below.
+- Fundamental 2D CPP algorithm which works directly in continuous space, adapts the path pattern _in situ_ based on sensor information, guarantees complete coverage, computation and memory efficiency. (In production)
+- Extend existing 2D CPP method to curvature constrained robot, energy-constrained robot, and machine learning based framework. (Done)
+- 3D CPP method for complete coverage of a priori unknown environments using autonomous robot with limited sensing range. (Done)
 
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
