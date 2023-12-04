@@ -23,7 +23,7 @@ Typical operations of autonomous vehicles such as structural inspection, floor c
     </div>
 </div>
 <div class="caption">
-    Applications of coverage path planning. On the left, underwater terrain mapping. Middle, arable farming. Right, floor cleaning.
+    Figure 1: Applications of coverage path planning. On the left, underwater terrain mapping. Middle, arable farming. Right, floor cleaning.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
