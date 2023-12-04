@@ -55,7 +55,7 @@ Now, I am working on the online CPP problem in a number of scenarios as listed b
     Figure 2: Incremental construction of the coverage tree.
 </div>
 
-**Validations:** We have validated its efficacy on the Robot Operating System (ROS) with Underwater Simulator (UWSim). The results are shown below.
+**Validations:** We have validated the algorithm on the Robot Operating System (ROS) with Underwater Simulator (UWSim). The results are shown below.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
