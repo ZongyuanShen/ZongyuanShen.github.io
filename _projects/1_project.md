@@ -8,7 +8,7 @@ category: work
 related_publications: 
 ---
 
-### Introduction
+## Introduction
 Typical operations of autonomous vehicles such as structural inspection, floor cleaning, lawn mowing, terrain mapping, oil spill cleaning, arable farming, usually require covering of all points in the search area, i.e., _Coverage Path Planning_ (CPP). Often, these operations are performed in either completely unknown or partially known environments where the information on the exact geometrical shapes and locations, of obstacles and map boundaries, may be incorrect or incomplete. Therefore, it is essential to utilize online (i.e., sensor-based) CPP methods that can dynamically unfold the environment via discovering unknown obstacles on the path; thus facilitating online trajectory adaptation, obstacle avoidance, mapping boundaries, and complete coverage.
 
 <div class="row">
@@ -32,7 +32,7 @@ Now, I am working on the online coverage path planning problem in a number of sc
 - Deep-learning based coverage path planning algorithm. (Done)
 - 3D coverage path planning algorithm for complete coverage of unknown obstacle-rich environments using autonomous robot with limited sensing range. (Done)
 
-### 3D Coverage Path Planning
+## 3D Coverage Path Planning
 
 **Motivation:** Existing CPP approaches are of two types: 2D and 3D. While 2D approaches are applied for tasking on 2D surfaces (e.g., floor cleaning and lawn mowing), they are rendered insufficient for applications involving 3D surfaces. For example, a 2D CPP method can be applied for mapping a 3D underwater terrain by operating an autonomous underwater vehicle (AUV) at a fixed depth, such that the side-scan sonar can scan the seabed. However, this approach will be unable to explore the regions above the AUV, thus generating an incomplete terrain map. On the other hand, if the AUV is operated at a higher level, then the sensors will be unable to scan the terrain due to their limited field of view (FOV). Therefore, a 3D CPP method is needed for 3D terrain mapping.
 
@@ -63,7 +63,7 @@ Now, I am working on the online coverage path planning problem in a number of sc
 - Z. Shen, J. Song, K. Mittal, and S. Gupta, “Autonomous 3-D mapping and safe-path planning for underwater terrain reconstruction using multi-level coverage trees,” in Proc. OCEANS'17 MTS/IEEE, Anchorage, AK, USA, Sep. 2017, pp. 1–6.
 - Z. Shen, J. Song, K. Mittal, and S. Gupta, “An autonomous integrated system for 3-d underwater terrain map reconstruction,” in Proc. OCEANS'16 MTS/IEEE, Monterey, CA, USA, Sep. 2016, pp. 1–6.
 
-### Deep-learning based Coverage Path Planning:
+## Deep-learning based Coverage Path Planning:
 
 **Motivation:** CPP in known environments is an application of the traveling salesman problem (TSP), in that the optimal CPP trajectory is also an optimal TSP tour. Finding the optimal solution, however, is NP-Hard. While many heuristics exist, these methods are either: i) sub-optimal, or ii) not suitable for online computation. Many robot missions are dynamic in nature, requiring fast online coverage path replanning in response to changes in the environment, robot, or mission objectives. Thus, it is essential to develop a coverage path planner that can quickly find near-optimal tours under dynamic conditions.
 
@@ -91,3 +91,33 @@ Now, I am working on the online coverage path planning problem in a number of sc
 
 **Related Paper:**
 - Z. Shen, P. Agrawal, J. P. Wilson, R. Harvey, and S. Gupta, “CPPNet: A coverage path planning network,” in Proc. OCEANS'21 MTS/IEEE, San Diego, CA, USA, Sep. 2021, pp. 1–5.
+
+## 2D Coverage Path Planning Under Energy Constraints
+
+**Motivation:** In real-life situations, autonoumous robots are energy-constrained due to the limited size of batteries; thus limiting their duration of operation. Therefore, while executing a coverage trajectory, the AUV has to return to the charging station for a recharge before the battery runs out. While a variety of CPP methods are available in literature, only a limited body of work has focused on energy-constrained CPP problem.
+
+**Method Overview:** We proposed an extension of [ε* algorithm](https://ieeexplore.ieee.org/abstract/document/8286947) for online CPP of unknown environments using energy-constrained vehicles. During coverage, the vehicle detects unknown obstacles for dynamic map-building, while continuously monitoring the remaining energy so that it has sufficient energy for returning to the charging station when its battery runs low. Upon battery depletion, the vehicle retreats back to the charging station and after recharging it advances to a nearby cell to restart the coverage of the remaining uncovered area. The advantages of the proposed algorithm are as follows: i) produces easy-to-follow and user-desired back-and-forth coverage trajectories, ii) chooses a nearby unexplored cell as the new start point after each recharging to avoid longer travel to the cell from where it retreated back, iii) works in unknown environments, and iv) computationally efficient for real-time implementation.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/CPP_8.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 6: An example illustrating the execution of the proposed algorithm in an environment containing unknown obstacles.
+</div>
+
+**Results:** Figure 5 presents the box plots of the trajectory lengths (left) and online inference times (right) of the [2-opt](https://en.wikipedia.org/wiki/2-opt) and CPPNet solutions over all testing scenarios. In general, CPPNet is able to generate trajectories that are within 5-27% of the 2-opt solution; however, CPPNet requires several orders of magnitude less computation time, thus making it suitable for online coverage path planning in dynamic or partially unknown environments.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/CPP_9.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 7: The vehicle trajectory showing coverage process of the search area.
+</div>
+
+**Related Paper:**
+- Z. Shen, J. P. Wilson, and S. Gupta, “ε*+: An online coverage path planning algorithm for energy-constrained autonomous vehicles,” in Proc. OCEANS'20 MTS/IEEE, Gulf Coast, MS, USA, Oct. 2020, pp. 1–6.
+- A Journal paper is in production with 1) a detailed algorithm formulation, 2) analysis of time complexity, competitiveness, and complete coverage, 3) comparative evaluation against several baseline algorithms on many diverse scenarios, 4) further validation of proposed algorithm through real experiments in a laboratory setting.
