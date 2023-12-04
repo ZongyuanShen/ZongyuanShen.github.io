@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching & Research Mentorship
+title: Teaching
 description:
 nav: true
 nav_order: 3
@@ -87,24 +87,6 @@ nav_order: 3
     <h6 class="font-italic mt-2 mt-sm-0">Spring 2018: Grader</h6>
     <ul class="font-weight-light list-group list-group-flush">
       <li class="list-group-item">○ It is an intermediate undergraduate course taught by <a href="https://www.ee.uconn.edu/peter-willett/" target="_blank">Prof. Peter Willett</a>. Topics include digital filters, frequency response, canonic realizations and state equations, Fourier methods for discrete signal representation.</li>
-    </ul>
-  </div>
-</div>
-
-<h3 class="mt-4">Research Mentorship</h3>
-<div class="card mt-3">
-  <div class="p-3">
-
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 class="font-weight-bold">Master's Student</h5>
-      </div>
-    </div>
-
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item"> <b>Reema Raval</b> (ECE at University of Connecticut)
-        <h6 class="mt-2 mt-sm-0">Research on Risk-Aware Motion Planning for Curvature-Constrained Vehicles under Motion Uncertainty (2023-2024).</h6>
-      </li>
     </ul>
   </div>
 </div>
