@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Area 1
+description: Online Coverage Path Planning
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: shen2023smart, einstein1950meaning
+related_publications: 
 ---
 
 Every project has a beautiful feature showcase page.
