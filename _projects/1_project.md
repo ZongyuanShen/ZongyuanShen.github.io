@@ -98,7 +98,7 @@ Now, I am working on the online coverage path planning problem in a number of sc
 
 **Method Overview:** We proposed an extension of [ε* algorithm](https://ieeexplore.ieee.org/abstract/document/8286947) for online CPP of unknown environments using energy-constrained vehicles. During coverage, the vehicle detects unknown obstacles for dynamic map-building, while continuously monitoring the remaining energy so that it has sufficient energy for returning to the charging station when its battery runs low. Upon battery depletion, the vehicle retreats back to the charging station and after recharging it advances to a nearby cell to restart the coverage of the remaining uncovered area. The advantages of the proposed algorithm are as follows: i) produces easy-to-follow and user-desired back-and-forth coverage trajectories, ii) chooses a nearby unexplored cell as the new start point after each recharging to avoid longer travel to the cell from where it retreated back, iii) works in unknown environments, and iv) computationally efficient for real-time implementation.
 
-<div class="row">
+<div class="row" height="50%" width="50%>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/CPP_8.svg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
