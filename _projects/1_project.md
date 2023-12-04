@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Area 1
-description: Online Coverage Path Planning
+title: Online Coverage Path Planning
+description:
 img: assets/img/12.jpg
 importance: 1
 category: work
