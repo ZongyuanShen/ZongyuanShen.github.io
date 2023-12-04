@@ -54,3 +54,5 @@ Now, I am working on the online CPP problem in a number of scenarios as listed b
 <div class="caption">
     Figure 2: Incremental construction of the coverage tree.
 </div>
+
+**Method Overview:** We have validated its efficacy on the Robot Operating System (ROS) with Underwater Simulator (UWSim). The results are shown below.
