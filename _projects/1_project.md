@@ -47,7 +47,7 @@ Now, I am working on the online coverage path planning problem in a number of sc
     Figure 2: Incremental construction of the coverage tree.
 </div>
 
-**Validations:** We have validated the algorithm on the Robot Operating System (ROS) with Underwater Simulator (UWSim). The results are shown below.
+**Results:** We have validated the algorithm on the Robot Operating System (ROS) with Underwater Simulator (UWSim). The results are shown below.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -77,3 +77,17 @@ Now, I am working on the online coverage path planning problem in a number of sc
 <div class="caption">
     Figure 4: The training and online architecture of CPPNet.
 </div>
+
+**Results:** Figure 5 presents the box plots of the trajectory lengths (left) and online inference times (right) of the 2-opt and CPPNet solutions over all testing scenarios. In general, CPPNet is able to generate trajectories that are within 5-27% of the 2-opt solution; however, CPPNet requires several orders of magnitude less computation time, thus making it suitable for online coverage path planning in dynamic or partially unknown environments.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/CPP_7.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 5: Performance evaluation for CPPNet as compared to 2-opt TSP solver.
+</div>
+
+**Related Paper:**
+- Z. Shen, P. Agrawal, J. P. Wilson, R. Harvey, and S. Gupta, “CPPNet: A coverage path planning network,” in Proc. OCEANS'21 MTS/IEEE, San Diego, CA, USA, Sep. 2021, pp. 1–5.
