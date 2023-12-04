@@ -36,7 +36,7 @@ Now, I am working on the online coverage path planning problem in a number of sc
 
 **Motivation:** Existing CPP approaches are of two types: 2D and 3D. While 2D approaches are applied for tasking on 2D surfaces (e.g., floor cleaning and lawn mowing), they are rendered insufficient for applications involving 3D surfaces. For example, a 2D CPP method can be applied for mapping a 3D underwater terrain by operating an autonomous underwater vehicle (AUV) at a fixed depth, such that the side-scan sonar can scan the seabed. However, this approach will be unable to explore the regions above the AUV, thus generating an incomplete terrain map. On the other hand, if the AUV is operated at a higher level, then the sensors will be unable to scan the terrain due to their limited field of view (FOV). Therefore, a 3D CPP method is needed for 3D terrain mapping.
 
-**Method Overview:** We proposed the 3D coverage strategy using multi-level coverage trees, as shown below. The algorithm guides the AUV to scan layer by layer in a top-down manner, while it dynamically constructs a coverage tree to record the search progress. Each node in the coverage tree refers to a sub-region on a horizontal surface; initially, the tree contains a single root which is the highest layer. When the AUV is searching within a node using the ε* algorithm, it uses its multi-beam sensor to scan the environment beneath it and identifies the "child nodes" and addes them to the existing coverage tree. As it completes searching the current node, it calls TSP-optimized node traversal strategy to compute for the next region to explore. The coverage is completed when no more nodes are unexplored in the tree. Then, the multi-beam sensor measurements, which constitute a 3D point cloud, are used to reconstruct the surface using the α-Shape algorithm, where α is a user-defined positive parameter to control the desired level of details.
+**Method Overview:** We proposed the 3D coverage strategy using multi-level coverage trees, as shown below. The algorithm guides the AUV to scan layer by layer in a top-down manner, while it dynamically constructs a coverage tree to record the search progress. Each node in the coverage tree refers to a sub-region on a horizontal surface; initially, the tree contains a single root which is the highest layer. When the AUV is searching within a node using the [ε* algorithm](https://ieeexplore.ieee.org/abstract/document/8286947), it uses its multi-beam sensor to scan the environment beneath it and identifies the child nodes and addes them to the existing coverage tree. As it completes searching the current node, it calls TSP-optimized node traversal strategy to compute for the next region to explore. The coverage is completed when no more nodes are unexplored in the tree. Then, the multi-beam sensor measurements, which constitute a 3D point cloud, are used to reconstruct the surface using the [α-Shape algorithm](https://en.wikipedia.org/wiki/Alpha_shape), where α is a user-defined positive parameter to control the desired level of details.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -47,7 +47,7 @@ Now, I am working on the online coverage path planning problem in a number of sc
     Figure 2: Incremental construction of the coverage tree.
 </div>
 
-**Results:** The CT-CPP algorithm is validated on a high-fidelity underwater simulator called UWSim based on the Robot Operating System (ROS) and the results are compared to a baseline algorithm called terrain following CPP (TF-CPP) in five randomly generated scenes. Figure 3(f) shows the total trajectory lengths for all five scenes, which indicate that the CT-CPP method took the shorter path lengths. Figure 3(g) shows that the CT-CPP method consumed less energy in all five scenes as compared to the TF-CPP method due to its frequent vertical motions. Further, we numerically evaluated the reconstruction errors using different α. As seen in Figure 3(h), CT-CPP performs better in all five scenes. Thus, CT-CPP is an alternate method to TF-CPP and it is expected to outperform the TF-CPP method in a significant number of scenarios.
+**Results:** The CT-CPP algorithm is validated on a high-fidelity underwater simulator called [UWSim](https://wiki.ros.org/uwsim) based on the [Robot Operating System (ROS)](https://www.ros.org/) and the results are compared to a baseline algorithm called [terrain following CPP (TF-CPP)](https://link.springer.com/article/10.1007/BF00141150) in five randomly generated scenes. Figure 3(f) shows the total trajectory lengths for all five scenes, which indicate that the CT-CPP method took the shorter path lengths. Figure 3(g) shows that the CT-CPP method consumed less energy in all five scenes as compared to the TF-CPP method due to its frequent vertical motions. Further, we numerically evaluated the reconstruction errors using different α. As seen in Figure 3(h), CT-CPP performs better in all five scenes. Thus, CT-CPP is an alternate method to TF-CPP and it is expected to outperform the TF-CPP method in a significant number of scenarios.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -78,7 +78,7 @@ Now, I am working on the online coverage path planning problem in a number of sc
     Figure 4: The training and online architecture of CPPNet.
 </div>
 
-**Results:** Figure 5 presents the box plots of the trajectory lengths (left) and online inference times (right) of the 2-opt and CPPNet solutions over all testing scenarios. In general, CPPNet is able to generate trajectories that are within 5-27% of the 2-opt solution; however, CPPNet requires several orders of magnitude less computation time, thus making it suitable for online coverage path planning in dynamic or partially unknown environments.
+**Results:** Figure 5 presents the box plots of the trajectory lengths (left) and online inference times (right) of the [2-opt](https://en.wikipedia.org/wiki/2-opt) and CPPNet solutions over all testing scenarios. In general, CPPNet is able to generate trajectories that are within 5-27% of the 2-opt solution; however, CPPNet requires several orders of magnitude less computation time, thus making it suitable for online coverage path planning in dynamic or partially unknown environments.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -86,7 +86,7 @@ Now, I am working on the online coverage path planning problem in a number of sc
     </div>
 </div>
 <div class="caption">
-    Figure 5: Performance evaluation for CPPNet as compared to 2-opt TSP solver.
+    Figure 5: Performance evaluation for CPPNet as compared to 2-opt.
 </div>
 
 **Related Paper:**
