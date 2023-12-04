@@ -55,4 +55,13 @@ Now, I am working on the online CPP problem in a number of scenarios as listed b
     Figure 2: Incremental construction of the coverage tree.
 </div>
 
-**Method Overview:** We have validated its efficacy on the Robot Operating System (ROS) with Underwater Simulator (UWSim). The results are shown below.
+**Validations:** We have validated its efficacy on the Robot Operating System (ROS) with Underwater Simulator (UWSim). The results are shown below.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/CPP_7.svg" title="example image" class="img-fluid" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 3: Performance evaluation for CT-CPP as compared to TF-CPP.
+</div>
