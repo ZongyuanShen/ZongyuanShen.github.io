@@ -28,7 +28,7 @@ Typical operations of autonomous vehicles such as structural inspection, floor c
 
 Now, I am working on the online coverage path planning problem in a number of scenarios as listed below.
 - Fundamental 2D coverage path planning algorithm which works directly in continuous space, adapts the path pattern _in situ_ based on sensor information, guarantees complete coverage, computation and memory efficiency. (In production)
-- 2D coverage path planning algorithm for energy-constrained autonomous robot. (In production)
+- 2D coverage path planning algorithm for energy-constrained autonomous robots. (In production)
 - Deep-learning based coverage path planning algorithm. (Done)
 - 3D coverage path planning algorithm for complete coverage of unknown obstacle-rich environments using autonomous robot with limited sensing range. (Done)
 
