@@ -32,7 +32,7 @@ Now, I am working on the online coverage path planning problem in a number of sc
 - Deep-learning based coverage path planning algorithm. (Done)
 - 3D coverage path planning algorithm for complete coverage of unknown obstacle-rich environments using autonomous robot with limited sensing range. (Done)
 
-## 3D Coverage Path Planning
+## 3D Coverage Path Planning Under Sensing Limitations
 
 **Motivation:** Existing CPP approaches are of two types: 2D and 3D. While 2D approaches are applied for tasking on 2D surfaces (e.g., floor cleaning and lawn mowing), they are rendered insufficient for applications involving 3D surfaces. For example, a 2D CPP method can be applied for mapping a 3D underwater terrain by operating an autonomous underwater vehicle (AUV) at a fixed depth, such that the side-scan sonar can scan the seabed. However, this approach will be unable to explore the regions above the AUV, thus generating an incomplete terrain map. On the other hand, if the AUV is operated at a higher level, then the sensors will be unable to scan the terrain due to their limited field of view (FOV). Therefore, a 3D CPP method is needed for 3D terrain mapping.
 
@@ -63,7 +63,7 @@ Now, I am working on the online coverage path planning problem in a number of sc
 - Z. Shen, J. Song, K. Mittal, and S. Gupta, “Autonomous 3-D mapping and safe-path planning for underwater terrain reconstruction using multi-level coverage trees,” in Proc. OCEANS'17 MTS/IEEE, Anchorage, AK, USA, Sep. 2017, pp. 1–6.
 - Z. Shen, J. Song, K. Mittal, and S. Gupta, “An autonomous integrated system for 3-d underwater terrain map reconstruction,” in Proc. OCEANS'16 MTS/IEEE, Monterey, CA, USA, Sep. 2016, pp. 1–6.
 
-## Deep-learning based Coverage Path Planning:
+## Deep-learning based Coverage Path Planning
 
 **Motivation:** CPP in known environments is an application of the traveling salesman problem (TSP), in that the optimal CPP trajectory is also an optimal TSP tour. Finding the optimal solution, however, is NP-Hard. While many heuristics exist, these methods are either: i) sub-optimal, or ii) not suitable for online computation. Many robot missions are dynamic in nature, requiring fast online coverage path replanning in response to changes in the environment, robot, or mission objectives. Thus, it is essential to develop a coverage path planner that can quickly find near-optimal tours under dynamic conditions.
 
