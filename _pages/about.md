@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a fifth-year Ph.D. candidate in the [Department of Electrical and Computer Engineering](https://www.ee.uconn.edu/) at [University of Connecticut](https://uconn.edu/), advised by Professor [Shalabh Gupta](https://www.ee.uconn.edu/shalabh-gupta/) and co-advised by Professor [Shengli Zhou](https://www.ee.uconn.edu/shengli-zhou/) and Professor [Liang Zhang](https://www.ee.uconn.edu/liang-zhang/). My current research focuses on:
+I am a Ph.D. candidate in the [Department of Electrical and Computer Engineering](https://www.ee.uconn.edu/) at [University of Connecticut](https://uconn.edu/), advised by Professor [Shalabh Gupta](https://www.ee.uconn.edu/shalabh-gupta/) and co-advised by Professor [Shengli Zhou](https://www.ee.uconn.edu/shengli-zhou/) and Professor [Liang Zhang](https://www.ee.uconn.edu/liang-zhang/). My current research focuses on:
 
 1. **Online coverage path planning:** How to plan an efficient path to completely cover an unknown area of interest while ensuring computational efficiency, and satisfying robot constraints (e.g., curvature and energy) and high path quality (e.g., length, number of turns, and overlappings).
 2. **Reactive replanning:** How to facilitate fast and efficient replanning in response to changes in the environment using the most recently obervations.
