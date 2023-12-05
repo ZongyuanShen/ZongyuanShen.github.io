@@ -27,3 +27,12 @@ A variety of reactive replanning algorithms exist in literature. However, these 
 <div class="caption">
     Figure 1: Applications of reactive plannning including self-driving cars, multi-robot system, and service robot.
 </div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RR_4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 3: Performance evaluation for CT-CPP as compared to TF-CPP.
+</div>
