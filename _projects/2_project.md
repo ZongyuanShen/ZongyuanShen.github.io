@@ -29,19 +29,15 @@ A variety of reactive replanning algorithms exist in literature. However, these 
 </div>
 
 ## Method Overview
-We proposed a 3D CPP algorithm, called CT-CPP, using a coverage tree (CT), where the nodes (except the root node) of CT represent the disconnected subregions, as shown in Figure 2. CT-CPP incrementally builds a CT in a top-down manner, which is used to plan and track the progress of 3D coverage. 
-
-Once the AUV reaches a node, it covers the corresponding subregion using a [2D CPP algorithm](https://ieeexplore.ieee.org/abstract/document/8286947). During the coverage of each planar subregion, the AUV uses the downward-facing multi-beam sonar sensor to collect data for the 3D terrain structures that are within the sensor’s range extended at least up to the plane below. Based on the data, the AUV projects and stores the information about obstacles intersecting the plane below by forming a 2D probabilistic occupancy map [(POM)](https://mitpress.mit.edu/9780262201629/probabilistic-robotics/). Since the underwater terrain may contain narrow regions which can be risky for the AUV to navigate and avoid collisions, an image morphological operator [‘closing’](https://link.springer.com/book/10.1007/978-3-662-05088-0) is applied on the POM to close the narrow areas. Subsequently, a symbolic map is obtained such that the cells whose occupancy probability is higher than the threat probability are marked as threat, while the others are marked as safe. This serves two purposes: i) the updated symbolic map is used to identify the disconnected subregions on that plane. i.e., it adds child nodes to the CT, and ii) it ensures the AUV’s safety when it navigates on that plane.
-
-The updated tree is then used to plan the AUV trajectory by generating an optimized tree traversal sequence using a heuristics-based solution to the traveling salesman problem. The above process continues until the AUV completes the coverage of all nodes of the tree and no new nodes are created. Then, the data collected from all nodes are integrated offline for complete 3D terrain reconstruction using [α-Shape algorithm](https://en.wikipedia.org/wiki/Alpha_shape).
+We proposed an algorithm, called Self-Morphing Adaptive Replanning Tree (SMART), that facilitates real-time reactive replanning in dynamic environments for uninterrupted navigation.To initialize, SMART constructs a search-tree using the RRT* algorithm considering only the static obstacles and finds the initial path. Subsequently, while navigating, the robot constantly validates its current path for obstructions by nearby dynamic obstacles. If the path is infeasible, SMART performs quick informed replanning that consists of two-steps: 1) tree-pruning and 2) tree-repair. In the tree-pruning step, all risky nodes near the cobot are pruned. This breaks the current tree and forms (possibly) multiple disjoint subtrees. Next, the informed tree-repair step searches for hot-spots that lie at the intersection of different subtrees and provide avenues for real-time tree-repair. Then, the utilities of these hot-spots are computed using the shortest-path heuristics. Finally, these hot-spots are incrementally selected according to their utility for merging disjoint subtrees until a new path is found.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/CPP_4.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RR_4.svg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Figure 2: Incremental construction of the coverage tree.
+    Figure 2: Illustration of the SMART algorithm: (a) tree-pruning and disjoint tree creation and (b)-(i) tree-repair and replanning.
 </div>
 
 ## Results
