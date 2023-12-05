@@ -26,11 +26,11 @@ Typical operations of autonomous vehicles such as structural inspection, floor c
     Figure 1: Applications of coverage path planning. On the left, underwater terrain mapping. Middle, arable farming. Right, floor cleaning.
 </div>
 
-Now, I am working on the online coverage path planning problem in a number of scenarios as listed below.
-- Fundamental 2D coverage path planning algorithm which works directly in continuous space, adapts the path pattern _in situ_ based on sensor information, guarantees complete coverage, computation and memory efficiency. (In production)
-- 2D coverage path planning algorithm for energy-constrained autonomous robots. (In production)
-- Deep-learning based coverage path planning algorithm. (Done)
-- 3D coverage path planning algorithm for complete coverage of unknown obstacle-rich environments using autonomous robot with limited sensing range. (Done)
+Now, I am working on the online coverage path planning problem in a number of topics as listed below.
+- 3D coverage path planning under sensing limitations. **(Done)**
+- Deep-learning based coverage path planning. **(Done)**
+- 2D coverage path planning under energy constraints. **(Ongoing)**
+- Fundamental 2D coverage path planning which works directly in continuous space, adapts the path pattern _in situ_ based on sensor information, guarantees complete coverage, computation and memory efficiency. **(Ongoing)**
 
 ## 3D Coverage Path Planning Under Sensing Limitations
 
