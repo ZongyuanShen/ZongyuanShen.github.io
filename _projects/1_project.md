@@ -9,7 +9,7 @@ related_publications:
 ---
 
 ## Introduction
-Typical operations of autonomous vehicles such as structural inspection, floor cleaning, lawn mowing, terrain mapping, oil spill cleaning, arable farming, usually require covering of all points in the search area, i.e., _Coverage Path Planning_ (CPP). Often, these operations are performed in either completely unknown or partially known environments where the information on the exact geometrical shapes and locations, of obstacles and map boundaries, may be incorrect or incomplete. Therefore, it is essential to utilize online (i.e., sensor-based) CPP methods that can dynamically unfold the environment via discovering unknown obstacles on the path; thus facilitating online trajectory adaptation, obstacle avoidance, mapping boundaries, and complete coverage.
+Typical operations of autonomous vehicles such as terrain mapping, arable farming, floor cleaning, structural inspection, lawn mowing, oil spill cleaning, usually require covering of all points in the search area, i.e., _Coverage Path Planning_ (CPP). Often, these operations are performed in either completely unknown or partially known environments where the information on the exact geometrical shapes and locations, of obstacles and map boundaries, may be incorrect or incomplete. Therefore, it is essential to utilize online (i.e., sensor-based) CPP methods that can dynamically unfold the environment via discovering unknown obstacles on the path; thus facilitating online trajectory adaptation, obstacle avoidance, mapping boundaries, and complete coverage.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -23,7 +23,7 @@ Typical operations of autonomous vehicles such as structural inspection, floor c
     </div>
 </div>
 <div class="caption">
-    Figure 1: Applications of coverage path planning. On the left, underwater terrain mapping. Middle, arable farming. Right, floor cleaning.
+    Figure 1: Applications of coverage path planning including seabed mapping, arable farming, and floor cleaning.
 </div>
 
 Now, I am working on the online coverage path planning problem in a number of topics as listed below.
