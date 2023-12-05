@@ -130,4 +130,4 @@ The CT-CPP algorithm is validated on a high-fidelity underwater simulator called
 
 **Related Paper:**
 - Z. Shen, J. P. Wilson, and S. Gupta, “ε*+: An online coverage path planning algorithm for energy-constrained autonomous vehicles,” in Proc. OCEANS'20 MTS/IEEE, Gulf Coast, MS, USA, Oct. 2020, pp. 1–6.
-- A Journal paper is in production with 1) a detailed algorithm formulation, 2) analysis of time complexity, competitiveness, and complete coverage, 3) comparative evaluation against several baseline algorithms on many diverse scenarios, 4) further validation of proposed algorithm through real experiments in a laboratory setting.
+- A Journal paper is in production with: i) a detailed algorithm formulation, ii) analysis of time complexity, competitiveness, and complete coverage, iii) comparative evaluation against several baseline algorithms on many diverse scenarios, iv) further validation of proposed algorithm through real experiments in a laboratory setting.
