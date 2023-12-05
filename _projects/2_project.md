@@ -28,12 +28,9 @@ A variety of reactive replanning algorithms exist in literature. However, these 
     Figure 1: Applications of reactive plannning including self-driving cars, multi-robot system, and service robot.
 </div>
 
-## Method Overview
-We proposed an algorithm, called Self-Morphing Adaptive Replanning Tree (SMART), that facilitates real-time reactive replanning in dynamic environments for uninterrupted navigation.To initialize, SMART constructs a search-tree using the RRT* algorithm considering only the static obstacles and finds the initial path. Subsequently, while navigating, the robot constantly validates its current path for obstructions by nearby dynamic obstacles. If the path is infeasible, SMART performs quick informed replanning that consists of two-steps: 1) tree-pruning and 2) tree-repair. In the tree-pruning step, all risky nodes near the cobot are pruned. This breaks the current tree and forms (possibly) multiple disjoint subtrees. Next, the informed tree-repair step searches for hot-spots that lie at the intersection of different subtrees and provide avenues for real-time tree-repair. Then, the utilities of these hot-spots are computed using the shortest-path heuristics. Finally, these hot-spots are incrementally selected according to their utility for merging disjoint subtrees until a new path is found.
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RR_4.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/CPP_5.svg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
