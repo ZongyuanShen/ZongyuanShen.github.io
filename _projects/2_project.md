@@ -37,5 +37,5 @@ We proposed an algorithm, called Self-Morphing Adaptive Replanning Tree (SMART),
     </div>
 </div>
 <div class="caption">
-    Figure 2: Illustration of the SMART algorithm: (a) tree-pruning and disjoint tree creation and (b)-(i) tree-repair and replanning.
+    Figure 3: Performance evaluation for CT-CPP as compared to TF-CPP.
 </div>
