@@ -37,5 +37,5 @@ A variety of reactive replanning algorithms exist in literature. However, these 
     Figure 2: Illustration of the SMART algorithm.
 </div>
 
-**Related Paper:**
+## Related Paper
 - Z. Shen, J. P. Wilson, S. Gupta, and R. Harvey, “SMART: Self-morphing adaptive replanning tree,” IEEE Robotics and Automation Letters, vol. 8, no. 11, pp. 7312–7319, Sep. 2023.
