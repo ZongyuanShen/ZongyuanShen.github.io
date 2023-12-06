@@ -92,24 +92,13 @@ SMART is initialized by constructing a RRT* tree rooted at the goal and an initi
 </div>
 
 **Demo:**
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/SMART_simulation.mp4" title="example video"%}
-    </div>
-</div>
+{% include video.html path="assets/video/SMART_simulation.mp4"%}
 
 ## Validation by Real Experiments
 
 - Robot: [ROSMASTER X3](https://category.yahboom.net/collections/ros-robotics/products/rosmaster-x3) equipped with 1) a RPLIDAR S2L lidar with a range of 8 m for obstacle detection, 2) MD520 motor with encoder for detection of rotation angle and linear displacement, and 3) MPU9250 IMU for detection of speed, acceleration, and orientation.
 - Localization: An Extended Kalman Filter is used to fuse data from the IMU and motor encoder for localization.
 - Scenario: 7m × 7m lab space with both static and dynamic obstacles.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/SMART_experiment.mp4" title="example video"%}
-    </div>
-</div>
-
   
 ## Related Paper
 - Z. Shen, J. P. Wilson, S. Gupta, and R. Harvey, “SMART: Self-morphing adaptive replanning tree,” IEEE Robotics and Automation Letters, vol. 8, no. 11, pp. 7312–7319, Sep. 2023.
