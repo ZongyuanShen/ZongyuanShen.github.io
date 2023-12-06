@@ -55,6 +55,15 @@ A variety of reactive replanning algorithms exist in literature. However, these 
 - Scenario 2: This scenario depicts a real situation (e.g., a factory) with both static and dynamic obstacles. It consisted of a 66 m × 38 m space with a static obstacle layout and 10 dynamic obstacles. Each obstacle moves at a different speed. Then, 30 different obstacle trajectories are generated to intersect the cobot, resulting in 30 case studies.
 - Baseline algorithms: [HLRRT*](https://link.springer.com/article/10.1007/s10514-019-09879-8), [D* Lite](https://cdn.aaai.org/AAAI/2002/AAAI02-072.pdf), [ERRT](https://ieeexplore.ieee.org/abstract/document/1041624), [DRRT](https://ieeexplore.ieee.org/document/1641879), [MPRRT](https://ieeexplore.ieee.org/document/4209317), [RRTX](https://journals.sagepub.com/doi/full/10.1177/0278364915594679), [EBGRRT](https://www.sciencedirect.com/science/article/abs/pii/S0921889020304358), [MODRRT*](https://ieeexplore.ieee.org/document/9115288).
 
+  <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RR_6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Table I: Comparison of key features of SMART with other tree-based reactive replanning algorithms.
+</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RR_5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
