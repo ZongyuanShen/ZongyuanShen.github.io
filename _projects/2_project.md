@@ -38,7 +38,7 @@ SMART is initialized by constructing a RRT* tree rooted at the goal and an initi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RR_4.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/RR_4.svg" title="example image" class="img-fluid rounded z-depth-1"  width = "50"%}
     </div>
 </div>
 <div class="caption">
