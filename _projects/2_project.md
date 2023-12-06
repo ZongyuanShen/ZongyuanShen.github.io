@@ -52,8 +52,17 @@ A variety of reactive replanning algorithms exist in literature. However, these 
 - Robot: radius 0.5m that moves at a speed of 4m/s.
 - Dynamic obstacle: radius 0.5m that move along a random heading from for a random distance.
 - Scenario 1: This scenario consists of a 32 m × 32 m space populated with only dynamic obstacles. Two cases are conducted including a) 10 and b) 15 obstacles. Each obstacle moves at the same speed selected from the set {1, 2, 3, 4}m/s, resulting in 8 different combinations of the number of obstacles and speeds. For each combination, 30 different obstacle trajectories are generated to intersect the cobot, resulting in a total of 240 case studies.
-- Scenario 2: This scenario depicts a real situation (e.g., a factory) with both static and dynamic obstacles. It consisted of a 66 m × 38 m space with a static obstacle layout and 10 dynamic obstacles. Each obstacle moves at a different speed selected from the set {1, 2, 3, 4}m/s. Then, 30 different obstacle trajectories are generated to intersect the cobot, resulting in 30 case studies.
-- Baseline algorithm:
+- Scenario 2: This scenario depicts a real situation (e.g., a factory) with both static and dynamic obstacles. It consisted of a 66 m × 38 m space with a static obstacle layout and 10 dynamic obstacles. Each obstacle moves at a different speed. Then, 30 different obstacle trajectories are generated to intersect the cobot, resulting in 30 case studies.
+- Baseline algorithm: [D* Lite](https://cdn.aaai.org/AAAI/2002/AAAI02-072.pdf), [ERRT](https://ieeexplore.ieee.org/abstract/document/1041624), [DRRT](https://ieeexplore.ieee.org/document/1641879), [MPRRT](https://ieeexplore.ieee.org/document/4209317), [RRTX](https://journals.sagepub.com/doi/full/10.1177/0278364915594679), [HLRRT*](https://link.springer.com/article/10.1007/s10514-019-09879-8), [EBGRRT](https://www.sciencedirect.com/science/article/abs/pii/S0921889020304358), [MODRRT*](https://ieeexplore.ieee.org/document/9115288).
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RR_5.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 3: Simulation testing scenarios.
+</div>
 
 **Simulation Results:** Figure 4 shows the comparative evaluation results on Scenario 1. Overall, SMART achieves significant improvements over other algorithms in success rate and replanning time in all case studies. This follows from the facts that i) tree-pruning not only reduces collision checking to nearby obstacles but also produces fewer disjoint trees for repairing, and ii) tree-repair exploits the disjoint subtrees and facilitates repairing at hot-spots for speedy recovery. Figure 5 shows that SMART achieves the lowest travel times because of i) low replanning times and ii) infrequent replanning. Furthermore, to investigate the value of the tree-repair step, we present an ablation study, where LRZ is removed, thus pruning all risky nodes. Figures 4 and 5 show that SMART w/o LRZ still performs significantly better than all other algorithms in replanning time and success rate. Figure 6 shows the same trend in Scenario 2. As seen, SMART outperforms all other methods in terms of replanning time, success rate, and the total travel time.
 
