@@ -51,7 +51,7 @@ SMART is initialized by constructing a RRT* tree rooted at the goal and an initi
 - Dynamic obstacle: moves along a random heading for a random distance.
 - Scenario 1: 32m × 32m space populated with only dynamic obstacles.
 - Scenario 2: 66m × 38m space with a static obstacle layout and 10 dynamic obstacles.
-- Baseline algorithms: [D* Lite](https://cdn.aaai.org/AAAI/2002/AAAI02-072.pdf), [ERRT](https://ieeexplore.ieee.org/abstract/document/1041624), [DRRT](https://ieeexplore.ieee.org/document/1641879), [MPRRT](https://ieeexplore.ieee.org/document/4209317), [RRTX](https://journals.sagepub.com/doi/full/10.1177/0278364915594679), HLRRT*, [EBGRRT](https://www.sciencedirect.com/science/article/abs/pii/S0921889020304358), [MODRRT*](https://ieeexplore.ieee.org/document/9115288).
+- Baseline algorithms: [D* Lite](https://cdn.aaai.org/AAAI/2002/AAAI02-072.pdf), [ERRT](https://ieeexplore.ieee.org/abstract/document/1041624), [DRRT](https://ieeexplore.ieee.org/document/1641879), [MPRRT](https://ieeexplore.ieee.org/document/4209317), [RRTX](https://journals.sagepub.com/doi/full/10.1177/0278364915594679), [HLRRT](https://link.springer.com/article/10.1007/s10514-019-09879-8)*, [EBGRRT](https://www.sciencedirect.com/science/article/abs/pii/S0921889020304358), [MODRRT*](https://ieeexplore.ieee.org/document/9115288).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -92,8 +92,11 @@ SMART is initialized by constructing a RRT* tree rooted at the goal and an initi
 </div>
 
 **Demo:**
-
-https://github.com/ZongyuanShen/ZongyuanShen.github.io/assets/136994172/5dad7811-4ff0-49f8-8118-f34ec3e6c4d2
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.html path="assets/video/SMART_simulation.mp4" title="example video"%}
+    </div>
+</div>
 
 ## Validation by Real Experiments
 
@@ -101,7 +104,11 @@ https://github.com/ZongyuanShen/ZongyuanShen.github.io/assets/136994172/5dad7811
 - Localization: An Extended Kalman Filter is used to fuse data from the IMU and motor encoder for localization.
 - Scenario: 7m × 7m lab space with both static and dynamic obstacles.
 
-https://github.com/ZongyuanShen/ZongyuanShen.github.io/assets/136994172/88fffce6-b362-426e-a33b-9c2686e0f432
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.html path="assets/video/SMART_experiment.mp4" title="example video"%}
+    </div>
+</div>
 
   
 ## Related Paper
