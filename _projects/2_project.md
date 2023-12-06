@@ -46,7 +46,7 @@ SMART is initialized by constructing a RRT* tree rooted at the goal and an initi
 </div>
 
 ## Validation by Simulation Experiments
-**Simulation Set-Up:** 
+**Set-Up:** 
 - Holonomic robot: moves at a speed of 4m/s.
 - Dynamic obstacle: moves along a random heading for a random distance.
 - Scenario 1: 32m × 32m space populated with only dynamic obstacles.
@@ -71,7 +71,7 @@ SMART is initialized by constructing a RRT* tree rooted at the goal and an initi
     Figure 3: Simulation testing scenarios.
 </div>
 
-**Simulation Results:** Figure 4 shows the comparative evaluation results on Scenario 1. Overall, SMART achieves significant improvements over other algorithms in success rate and replanning time in all case studies. This follows from the facts that i) tree-pruning not only reduces collision checking to nearby obstacles but also produces fewer disjoint trees for repairing, and ii) tree-repair exploits the disjoint subtrees and facilitates repairing at hot-spots for speedy recovery. Figure 5 shows that SMART achieves the lowest travel times because of i) low replanning times and ii) infrequent replanning. Furthermore, to investigate the value of the tree-repair step, we present an ablation study, where LRZ is removed, thus pruning all risky nodes. Figures 4 and 5 show that SMART w/o LRZ still performs significantly better than all other algorithms in replanning time and success rate. Figure 6 shows the same trend in Scenario 2. As seen, SMART outperforms all other methods in terms of replanning time, success rate, and the total travel time.
+**Results:** Figure 4 shows the comparative evaluation results on Scenario 1. Overall, SMART achieves significant improvements over other algorithms in success rate and replanning time in all case studies. This follows from the facts that i) tree-pruning not only reduces collision checking to nearby obstacles but also produces fewer disjoint trees for repairing, and ii) tree-repair exploits the disjoint subtrees and facilitates repairing at hot-spots for speedy recovery. Figure 5 shows that SMART achieves the lowest travel times because of i) low replanning times and ii) infrequent replanning. Furthermore, to investigate the value of the tree-repair step, we present an ablation study, where LRZ is removed, thus pruning all risky nodes. Figures 4 and 5 show that SMART w/o LRZ still performs significantly better than all other algorithms in replanning time and success rate. Figure 6 shows the same trend in Scenario 2. As seen, SMART outperforms all other methods in terms of replanning time, success rate, and the total travel time.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -92,9 +92,8 @@ SMART is initialized by constructing a RRT* tree rooted at the goal and an initi
 </div>
 
 **Demo:**
+
 https://github.com/ZongyuanShen/ZongyuanShen.github.io/assets/136994172/5dad7811-4ff0-49f8-8118-f34ec3e6c4d2
-
-
 
 ## Validation by Real Experiments
 
