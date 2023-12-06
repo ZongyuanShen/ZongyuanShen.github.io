@@ -71,7 +71,7 @@ SMART is initialized by constructing a RRT* tree rooted at the goal and an initi
     Figure 3: Simulation testing scenarios.
 </div>
 
-**Results:** Figures 4 and 5 show the comparative evaluation results on Scenario 1. Overall, SMART achieves significant improvements over other algorithms in all metrics. Furthermore, to investigate the value of the tree-repair step, we present an ablation study, where LRZ is removed, thus pruning all risky nodes. Figures 4 and 5 show that SMART w/o LRZ still performs significantly better than all other algorithms.
+**Results:** Figure 4 shows the comparative evaluation results on Scenario 1. Overall, SMART achieves significant improvements over other algorithms in success rate and replanning time in all case studies. This follows from the facts that i) tree-pruning not only reduces collision checking to nearby obstacles but also produces fewer disjoint trees for repairing, and ii) tree-repair exploits the disjoint subtrees and facilitates repairing at hot-spots for speedy recovery. Figure 5 shows that SMART achieves the lowest travel times because of i) low replanning times and ii) infrequent replanning. Furthermore, to investigate the value of the tree-repair step, we present an ablation study, where LRZ is removed, thus pruning all risky nodes. Figures 4 and 5 show that SMART w/o LRZ still performs significantly better than all other algorithms.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
