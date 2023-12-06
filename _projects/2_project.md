@@ -49,9 +49,9 @@ SMART is initialized by constructing a RRT* tree rooted at the goal and an initi
 **Simulation Set-Up:** 
 - Holonomic robot: moves at a speed of 4m/s.
 - Dynamic obstacle: moves along a random heading for a random distance.
-- Scenario 1: 32 m × 32 m space populated with only dynamic obstacles.
-- Scenario 2: 66 m × 38 m space with a static obstacle layout and 10 dynamic obstacles.
-- Baseline algorithms: [D* Lite](https://cdn.aaai.org/AAAI/2002/AAAI02-072.pdf), [ERRT](https://ieeexplore.ieee.org/abstract/document/1041624), [DRRT](https://ieeexplore.ieee.org/document/1641879), [MPRRT](https://ieeexplore.ieee.org/document/4209317), [RRTX](https://journals.sagepub.com/doi/full/10.1177/0278364915594679), [HLRRT*](https://link.springer.com/article/10.1007/s10514-019-09879-8), [EBGRRT](https://www.sciencedirect.com/science/article/abs/pii/S0921889020304358), [MODRRT*](https://ieeexplore.ieee.org/document/9115288).
+- Scenario 1: 32m × 32m space populated with only dynamic obstacles.
+- Scenario 2: 66m × 38m space with a static obstacle layout and 10 dynamic obstacles.
+- Baseline algorithms: [D* Lite](https://cdn.aaai.org/AAAI/2002/AAAI02-072.pdf), [ERRT](https://ieeexplore.ieee.org/abstract/document/1041624), [DRRT](https://ieeexplore.ieee.org/document/1641879), [MPRRT](https://ieeexplore.ieee.org/document/4209317), [RRTX](https://journals.sagepub.com/doi/full/10.1177/0278364915594679), [MODRRT*](https://link.springer.com/article/10.1007/s10514-019-09879-8), [EBGRRT](https://www.sciencedirect.com/science/article/abs/pii/S0921889020304358), [MODRRT*](https://ieeexplore.ieee.org/document/9115288).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -73,5 +73,37 @@ SMART is initialized by constructing a RRT* tree rooted at the goal and an initi
 
 **Simulation Results:** Figure 4 shows the comparative evaluation results on Scenario 1. Overall, SMART achieves significant improvements over other algorithms in success rate and replanning time in all case studies. This follows from the facts that i) tree-pruning not only reduces collision checking to nearby obstacles but also produces fewer disjoint trees for repairing, and ii) tree-repair exploits the disjoint subtrees and facilitates repairing at hot-spots for speedy recovery. Figure 5 shows that SMART achieves the lowest travel times because of i) low replanning times and ii) infrequent replanning. Furthermore, to investigate the value of the tree-repair step, we present an ablation study, where LRZ is removed, thus pruning all risky nodes. Figures 4 and 5 show that SMART w/o LRZ still performs significantly better than all other algorithms in replanning time and success rate. Figure 6 shows the same trend in Scenario 2. As seen, SMART outperforms all other methods in terms of replanning time, success rate, and the total travel time.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RR_7.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 4: Comparative evaluation results of success rate and average replanning time for Scenario 1 with (a) 10 and (b) 15 moving obstacles.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RR_8.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 5: Comparative evaluation results of travel time of successful trials for Scenario 1 with (a) 10 and (b) 15 moving obstacles. The plots show the median and the 25th and 75th percentile values.
+</div>
+
+**Demo:**
+https://github.com/ZongyuanShen/ZongyuanShen.github.io/assets/136994172/5dad7811-4ff0-49f8-8118-f34ec3e6c4d2
+
+
+
+## Validation by Real Experiments
+
+- Robot: [ROSMASTER X3](https://category.yahboom.net/collections/ros-robotics/products/rosmaster-x3) equipped with 1) a RPLIDAR S2L lidar with a range of 8 m for obstacle detection, 2) MD520 motor with encoder for detection of rotation angle and linear displacement, and 3) MPU9250 IMU for detection of speed, acceleration, and orientation.
+- Localization: An Extended Kalman Filter is used to fuse data from the IMU and motor encoder for localization.
+- Scenario: 7m × 7m lab space with both static and dynamic obstacles.
+
+https://github.com/ZongyuanShen/ZongyuanShen.github.io/assets/136994172/88fffce6-b362-426e-a33b-9c2686e0f432
+
+  
 ## Related Paper
 - Z. Shen, J. P. Wilson, S. Gupta, and R. Harvey, “SMART: Self-morphing adaptive replanning tree,” IEEE Robotics and Automation Letters, vol. 8, no. 11, pp. 7312–7319, Sep. 2023.
