@@ -92,11 +92,6 @@ SMART is initialized by constructing a RRT* tree rooted at the goal and an initi
 </div>
 
 **Demo:**
-<div class="row">
-    <div class="video">
-        {% include video.html path="assets/video/SMART_simulation.mp4"%}
-    </div>
-</div>
 
 ## Validation by Real Experiments
 
