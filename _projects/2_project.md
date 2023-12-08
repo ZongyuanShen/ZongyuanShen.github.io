@@ -106,6 +106,9 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
         {% include figure.html path="assets/img/SMART_simulation.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    
+</div>
 
 ## Validation by Real Experiments in Dynamic Environments
 
