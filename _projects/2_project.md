@@ -44,7 +44,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     Figure 2: Illustration of the SMART algorithm: (a) tree-pruning and disjoint tree creation and (b)-(i) tree-repair and replanning.
 </div>
 
-## Validation by Simulation Experiments
+## Validation by Simulation Experiments in Dynamic Environments
 **Set-Up:** 
 - Holonomic robot: moves at a speed of 4m/s.
 - Dynamic obstacle: moves along a random heading for a random distance.
@@ -92,7 +92,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 
 <div class="row justify-content-start row-cols-1">
         <div class="col">
-            {% include figure.html path="assets/img/RR_9.svg" title="example image" class="img-fluid rounded z-depth-1" width="500"%}
+            {% include figure.html path="assets/img/RR_9.svg" title="example image" class="img-fluid rounded z-depth-1" width="450"%}
         </div>
 </div>
 <div class="caption">
@@ -107,11 +107,17 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     </div>
 </div>
 
-## Validation by Real Experiments
+## Validation by Real Experiments in Dynamic Environments
 
 - Robot: [ROSMASTER X3](https://category.yahboom.net/collections/ros-robotics/products/rosmaster-x3) equipped with 1) a RPLIDAR S2L lidar with a range of 8 m for obstacle detection, 2) MD520 motor with encoder for detection of rotation angle and linear displacement, and 3) MPU9250 IMU for detection of speed, acceleration, and orientation.
 - Localization: An Extended Kalman Filter is used to fuse data from the IMU and motor encoder for localization.
-- Scenario: 7m × 7m lab space with both static and dynamic obstacles.
+- Scenario: 7m × 7m lab space with both static and three moving humans.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/SMART_experiment.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
   
 ## Related Paper
 - Z. Shen, J. P. Wilson, S. Gupta, and R. Harvey, “SMART: Self-morphing adaptive replanning tree,” IEEE Robotics and Automation Letters, vol. 8, no. 11, pp. 7312–7319, Sep. 2023.
