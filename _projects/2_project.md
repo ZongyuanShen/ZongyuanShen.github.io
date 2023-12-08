@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Reactive Motion Replanning
+title: Reactive Path Replanning
 description:
 img: assets/img/3.jpg
 importance: 1
