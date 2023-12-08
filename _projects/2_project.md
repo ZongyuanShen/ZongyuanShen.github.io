@@ -101,6 +101,12 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 
 **Demo:**
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/SMART_simulation.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 ## Validation by Real Experiments
 
 - Robot: [ROSMASTER X3](https://category.yahboom.net/collections/ros-robotics/products/rosmaster-x3) equipped with 1) a RPLIDAR S2L lidar with a range of 8 m for obstacle detection, 2) MD520 motor with encoder for detection of rotation angle and linear displacement, and 3) MPU9250 IMU for detection of speed, acceleration, and orientation.
