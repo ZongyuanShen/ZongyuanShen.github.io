@@ -91,7 +91,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 </div>
 
 <div class="row">
-    <div class="col-md-6 offset-md-3">
+    <div class="col-md-6 offset-md-6">
         {% include figure.html path="assets/img/RR_9.svg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
