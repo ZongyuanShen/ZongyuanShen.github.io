@@ -123,7 +123,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 <div class="caption">
 </div>
 
-## Simulation in the Environments with Unknown Static Obstacle
+## Simulation in the Environments with Unknown Static Obstacles
   
 ## Related Paper
 - Z. Shen, J. P. Wilson, S. Gupta, and R. Harvey, “SMART: Self-morphing adaptive replanning tree,” IEEE Robotics and Automation Letters, vol. 8, no. 11, pp. 7312–7319, Sep. 2023.
