@@ -44,7 +44,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     Figure 2: Illustration of the SMART algorithm: (a) tree-pruning and disjoint tree creation and (b)-(i) tree-repair and replanning.
 </div>
 
-## Validation by Simulation in the Environments with Moving Obstacles
+## Simulation in the Environments with Moving Obstacles
 **Set-Up:** 
 - Holonomic robot: moves at a speed of 4m/s.
 - Dynamic obstacle: moves along a random heading for a random distance.
@@ -109,7 +109,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 <div class="caption">
 </div>
 
-## Validation by Real Experiments in the Environments with Moving Obstacles
+## Real Experiment in the Environments with Moving Obstacles
 
 - Robot: [ROSMASTER X3](https://category.yahboom.net/collections/ros-robotics/products/rosmaster-x3) equipped with 1) a RPLIDAR S2L lidar with a range of 8 m for obstacle detection, 2) MD520 motor with encoder for detection of rotation angle and linear displacement, and 3) MPU9250 IMU for detection of speed, acceleration, and orientation.
 - Localization: An Extended Kalman Filter is used to fuse data from the IMU and motor encoder for localization.
@@ -122,6 +122,8 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 </div>
 <div class="caption">
 </div>
+
+## Simulation in the Environments with Unknown Static Obstacle
   
 ## Related Paper
 - Z. Shen, J. P. Wilson, S. Gupta, and R. Harvey, “SMART: Self-morphing adaptive replanning tree,” IEEE Robotics and Automation Letters, vol. 8, no. 11, pp. 7312–7319, Sep. 2023.
