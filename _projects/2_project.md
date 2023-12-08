@@ -90,7 +90,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     Figure 5: Comparative evaluation results of travel time of successful trials for Scenario 1 with (a) 10 and (b) 15 moving obstacles. The plots show the median and the 25th and 75th percentile values.
 </div>
 
-<div class="col">
+<div class="row justify-content-sm-center">
    
         <div class="col-sm mt-3 mt-md-0">
              
