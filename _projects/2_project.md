@@ -27,7 +27,7 @@ Typical path planning problems in a static environment aim to optimize the path 
 </div>
 
 ## Method Overview
-We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)**, that facilitates real-time reactive replanning in dynamic environments for uninterrupted navigation. It is initialized by constructing a RRT* tree rooted at the goal and an initial path is found using the tree. As the cobot moves, the path could be blocked by dynamic obstacles. A new path is replanned via an informed replanning strategy consisting of three steps: 1) tree-pruning, 2) tree-repair, and 3) tree-optimization.
+We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)**, that facilitates real-time reactive replanning in dynamic environments for uninterrupted navigation. It is initialized by constructing a RRT* tree rooted at the goal and an initial path is found using the tree. As the cobot moves, the path could be blocked by dynamic obstacles. A new path is replanned following three steps: 1) tree-pruning, 2) tree-repair, and 3) tree-optimization.
 
 **Tree-Pruning:** To find a safe trajectory via replanning, it is important to identify and prune the risky nodes of the tree. Since: 1) dynamic obstacles far away from the cobot do not pose an immediate risk, and 2) it is computationally inefficient to do feasibility checking around all detected obstacles, we present a local tree-pruning (LTP) strategy. A local reaction zone (LRZ) is created at the cobot position given the reaction time horizon and robot speed. An obstacle hazard zone (OHZ) is defined for each dynamic obstacle. Critical pruning region (CPR) consisting of OHZs that are intersecting with the LRZ is used for feasibility checking. As shown in Figure 1(a), the cobot constantly checks the feasibility of its current path in LRZ. If the current path is invalid, then all tree portions that fall within the CPR are considered to be risky for replanning and are thus pruned. This breaks the current tree and forms (possibly) multiple disjoint subtrees.
 
@@ -69,7 +69,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     Figure 3: Simulation testing scenarios.
 </div>
 
-**Results:** Figure 4 shows the comparative evaluation results on Scenario 1. Overall, SMART achieves significant improvements over other algorithms in success rate and replanning time in all case studies. This follows from the facts that i) tree-pruning not only reduces collision checking to nearby obstacles but also produces fewer disjoint trees for repairing, and ii) tree-repair exploits the disjoint subtrees and facilitates repairing at hot-spots for speedy recovery. Figure 5 shows that SMART achieves the lowest travel times because of i) low replanning times and ii) infrequent replanning. Furthermore, to investigate the value of the tree-repair step, we present an ablation study, where LRZ is removed, thus pruning all risky nodes. Figures 4 and 5 show that SMART w/o LRZ still performs significantly better than all other algorithms. Figure 5 shows the same trend in Scenario 2. As seen, SMART outperforms all other methods in terms of replanning time, success rate, and the total travel time.
+**Comparative Results:** Figure 4 shows the comparative evaluation results on Scenario 1. Overall, SMART achieves significant improvements over other algorithms in success rate and replanning time in all case studies. This follows from the facts that i) tree-pruning not only reduces collision checking to nearby obstacles but also produces fewer disjoint trees for repairing, and ii) tree-repair exploits the disjoint subtrees and facilitates repairing at hot-spots for speedy recovery. Figure 5 shows that SMART achieves the lowest travel times because of i) low replanning times and ii) infrequent replanning. Furthermore, to investigate the value of the tree-repair step, we present an ablation study, where LRZ is removed, thus pruning all risky nodes. Figures 4 and 5 show that SMART w/o LRZ still performs significantly better than all other algorithms. Figure 5 shows the same trend in Scenario 2. As seen, SMART outperforms all other methods in terms of replanning time, success rate, and the total travel time.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -112,9 +112,9 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 </div>
 
 ## Simulation in the Environments with Unknown Static Obstacles
-- Robot: [ROSMASTER X3](https://category.yahboom.net/collections/ros-robotics/products/rosmaster-x3) equipped with 1) a RPLIDAR S2L lidar with a range of 8 m for obstacle detection, 2) MD520 motor with encoder for detection of rotation angle and linear displacement, and 3) MPU9250 IMU for detection of speed, acceleration, and orientation.
-- Localization: An Extended Kalman Filter is used to fuse data from the IMU and motor encoder for localization.
-- Scenario: 7m × 7m lab space with both static and three moving humans.
+- Holonomic robot: moves at a speed of 4m/s and is equipped with a lidar with a range of 8m for obstacle detection.
+- Scenario 1: 62m × 32m outdoor forest environment.
+- Scenario 2: 62m × 32m indoor office environment.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
