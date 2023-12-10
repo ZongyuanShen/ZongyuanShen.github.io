@@ -101,7 +101,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 </div>
 
 ## Real Experiment in the Environments with Moving Obstacles
-
+**Set-Up:** 
 - Robot: [ROSMASTER X3](https://category.yahboom.net/collections/ros-robotics/products/rosmaster-x3) equipped with 1) a RPLIDAR S2L lidar with a range of 8 m for obstacle detection, 2) MD520 motor with encoder for detection of rotation angle and linear displacement, and 3) MPU9250 IMU for detection of speed, acceleration, and orientation.
 - Localization: An Extended Kalman Filter is used to fuse data from the IMU and motor encoder for localization.
 - Scenario: 7m × 7m lab space with both static and three moving humans.
@@ -115,6 +115,20 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 </div>
 
 ## Simulation in the Environments with Unknown Static Obstacles
+**Set-Up:** 
+- Holonomic robot: moves at a speed of 4m/s with scanning range of 8m.
+- Forest scenario: 62m × 32m space.
+- Office scenario: 62m × 32m space.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/SMART_unknownEnv_scene1.gif" title="example image" class="img-fluid rounded z-depth-1"}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/SMART_unknownEnv_scene2.gif" title="example image" class="img-fluid rounded z-depth-1"}
+    </div>
+</div>
+<div class="caption">
+</div>
   
 ## Related Paper
 - Z. Shen, J. P. Wilson, S. Gupta, and R. Harvey, “SMART: Self-morphing adaptive replanning tree,” IEEE Robotics and Automation Letters, vol. 8, no. 11, pp. 7312–7319, Sep. 2023.
