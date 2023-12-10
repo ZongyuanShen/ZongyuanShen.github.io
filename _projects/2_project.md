@@ -69,8 +69,6 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     Figure 3: Simulation testing scenarios.
 </div>
 
-**Comparative Results:** Figure 4 shows the comparative evaluation results on Scenario 1. Overall, SMART achieves significant improvements over other algorithms in success rate and replanning time in all case studies. This follows from the facts that i) tree-pruning not only reduces collision checking to nearby obstacles but also produces fewer disjoint trees for repairing, and ii) tree-repair exploits the disjoint subtrees and facilitates repairing at hot-spots for speedy recovery. Figure 5 shows that SMART achieves the lowest travel times because of i) low replanning times and ii) infrequent replanning. Furthermore, to investigate the value of the tree-repair step, we present an ablation study, where LRZ is removed, thus pruning all risky nodes. Figures 4 and 5 show that SMART w/o LRZ still performs significantly better than all other algorithms. Figure 5 shows the same trend in Scenario 2. As seen, SMART outperforms all other methods in terms of replanning time, success rate, and the total travel time.
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RR_7.svg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -119,9 +117,6 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_unknownEnv_scene1.gif" title="example image" class="img-fluid rounded z-depth-1"%}
-        <div class="caption">
-        Figure 1:
-        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_unknownEnv_scene2.gif" title="example image" class="img-fluid rounded z-depth-1"%}
