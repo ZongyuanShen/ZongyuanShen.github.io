@@ -111,10 +111,10 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 <div class="caption">
 </div>
 
-## Simulation in the Environments with Unknown Static Obstacles
+## Simulation in the Unknown Static Environments
 - Holonomic robot: moves at a speed of 4m/s and is equipped with a lidar with a range of 8m for obstacle detection.
-- Scenario 1: 62m × 32m outdoor forest environment.
-- Scenario 2: 62m × 32m indoor office environment.
+- Scenario 1: 62m × 32m indoor office environment.
+- Scenario 2: 62m × 32m outdoor forest environment.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
