@@ -127,3 +127,4 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
   
 ## Related Paper
 - Z. Shen, J. P. Wilson, S. Gupta, and R. Harvey, “SMART: Self-morphing adaptive replanning tree,” IEEE Robotics and Automation Letters, vol. 8, no. 11, pp. 7312–7319, Sep. 2023.
+- A follow-up journal paper is in production.
