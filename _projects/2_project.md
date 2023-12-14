@@ -95,9 +95,21 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SMART_dynEnv_scene1.gif" title="example image" class="img-fluid rounded z-depth-1"%}
+        {% include figure.html path="assets/img/RRTX_dynEnv_scene1.gif" title="example image" class="img-fluid rounded z-depth-1"%}
         <div class="caption">
-            SMART
+            RRTX
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/EBGRRT_dynEnv_scene1.gif" title="example image" class="img-fluid rounded z-depth-1"%}
+        <div class="caption">
+            EBGRRT
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/EBGRRT_dynEnv_scene1.gif" title="example image" class="img-fluid rounded z-depth-1"%}
+        <div class="caption">
+            EBGRRT
         </div>
     </div>
 </div>
