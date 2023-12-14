@@ -87,35 +87,6 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     Figure 5: Comparative evaluation results of travel time of successful trials for Scenario 1 with (a) 10 and (b) 15 moving obstacles. The plots show the median and the 25th and 75th percentile values.
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SMART_dynEnv_scene1.gif" title="example image" class="img-fluid rounded z-depth-1"%}
-        <div class="caption">
-            SMART
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RRTX_dynEnv_scene1.gif" title="example image" class="img-fluid rounded z-depth-1"%}
-        <div class="caption">
-            RRTX
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/EBGRRT_dynEnv_scene1.gif" title="example image" class="img-fluid rounded z-depth-1"%}
-        <div class="caption">
-            EBGRRT
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/EBGRRT_dynEnv_scene1.gif" title="example image" class="img-fluid rounded z-depth-1"%}
-        <div class="caption">
-            EBGRRT
-        </div>
-    </div>
-</div>
-<div class="caption">
-</div>
-
 ## Real Experiment in the Environments with Moving Obstacles
 - Robot: [ROSMASTER X3](https://category.yahboom.net/collections/ros-robotics/products/rosmaster-x3) equipped with 1) a RPLIDAR S2L lidar with a range of 8 m for obstacle detection, 2) MD520 motor with encoder for detection of rotation angle and linear displacement, and 3) MPU9250 IMU for detection of speed, acceleration, and orientation.
 - Localization: An Extended Kalman Filter is used to fuse data from the IMU and motor encoder for localization.
