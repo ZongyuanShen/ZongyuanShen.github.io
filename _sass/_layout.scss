@@ -41,29 +41,37 @@ body.sticky-bottom-footer {
  ******************************************************************************/
 
 // TODO: redefine publications layout.
-.bibliography {
-  
+// Publications
+.publications {
+  margin-top: 2rem;
 
+  ol.bibliography {
     li {
-     
-        span { display: block; }
-        .title { font-weight: bolder; }
-        .author {
-            a {
-                border-bottom: 1px solid var(--global-theme-color);
-                &:hover {
-                    border-bottom-style: solid;
-                    text-decoration: none;
-                }
-            }
-            > em {
-                border-bottom: 1px solid;
-                font-style: normal;
-            }
+      .author {
+        a {
+          border-bottom: 1px dashed var(--global-text-color);
+          color: var(--global-text-color);
+
+          &:hover {
+            border-bottom-style: solid;
+            text-decoration: none;
+            color: var(--global-hover-color);
+          }
         }
-       
+
+        >em {
+          color: var(--global-theme-color);
+        }
+      }
+
+      .pub-note {
+        font-size: small;
+        font-style: italic;
+        color: var(--global-theme-color);
+      }
     }
- }
+  }
+}
 
 
 /*****************************************************************************
