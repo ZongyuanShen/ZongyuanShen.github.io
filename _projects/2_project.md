@@ -44,7 +44,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     Figure 2: Illustration of the SMART algorithm: (a) tree-pruning and disjoint tree creation and (b)-(i) tree-repair and replanning.
 </div>
 
-## Simulation in the Environments with Moving Obstacles
+## Simulation in the Dynamic Environments
 - Holonomic robot: moves at a speed of 4m/s.
 - Dynamic obstacle: moves along a random heading for a random distance.
 - Scenario 1: 32m × 32m space populated with only dynamic obstacles.
@@ -96,7 +96,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     Figure 6: Demo of SMART and three baseline algorithms for Scenario 1 with 15 moving obstacles. Both robot and obstacles move at a speed of 4m/s.
 </div>
 
-## Real Experiment in the Environments with Moving Obstacles
+## Real Experiment in the Dynamic Environments
 - Robot: [ROSMASTER X3](https://category.yahboom.net/collections/ros-robotics/products/rosmaster-x3) equipped with 1) a RPLIDAR S2L lidar with a range of 8 m for obstacle detection, 2) MD520 motor with encoder for detection of rotation angle and linear displacement, and 3) MPU9250 IMU for detection of speed, acceleration, and orientation.
 - Localization: An Extended Kalman Filter is used to fuse data from the IMU and motor encoder for localization.
 - Scenario: 7m × 7m lab space with both static and three moving humans.
