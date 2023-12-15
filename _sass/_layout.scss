@@ -41,6 +41,51 @@ body.sticky-bottom-footer {
  ******************************************************************************/
 
 // TODO: redefine publications layout.
+.publications {
+    h2 {
+        color: $theme-color;
+        // border-bottom: 1px solid $theme-color;
+        // border-top: 1px solid $theme-color;
+        font-size: 32px;
+        margin-bottom: 30px;
+        // padding: 20px 0;
+        text-align: center;
+    }
+}
+.year {
+    border-top: 1px solid $light-gray;
+    color: $light-gray;
+    margin: 0 -3em -2.5ex -2em;
+    padding-top: 1ex;
+    text-align: right;
+}
+.bibliography {
+  
+
+    li {
+     
+        span { display: block; }
+        .title { font-weight: bolder; }
+        .author {
+            a {
+                border-bottom: 1px dashed $theme-color;
+                &:hover {
+                    border-bottom-style: solid;
+                    text-decoration: none;
+                }
+            }
+            > em {
+                border-bottom: 1px solid;
+                font-style: normal;
+            }
+        }
+       
+    }
+ }
+.star {
+    color: $theme-color;
+    font-style: normal;
+}
 
 
 /*****************************************************************************
