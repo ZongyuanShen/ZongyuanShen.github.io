@@ -28,12 +28,12 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # -----------------------------------------------------------------------------
 
 # repo color theme
-#repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-#repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-#repo_trophies:
- # enabled: true
- # theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
- # theme_dark: gitdimmed  # https://github.com/ryo-ma/github-profile-trophy
+repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_trophies:
+ enabled: true
+ theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
+ theme_dark: gitdimmed  # https://github.com/ryo-ma/github-profile-trophy
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -47,8 +47,8 @@ rss_icon: false
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: false
-footer_fixed: false
+navbar_fixed: true
+footer_fixed: true
 
 # Dimensions
 max_width: 900px
@@ -354,7 +354,7 @@ enable_masonry:             true   # enables automatic project cards arrangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
-enable_darkmode:            true   # enables switching between light/dark modes
+enable_darkmode:            false   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
