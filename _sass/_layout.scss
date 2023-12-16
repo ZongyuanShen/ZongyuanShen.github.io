@@ -60,6 +60,7 @@ body.sticky-bottom-footer {
         }
 
         >em {
+          border-bottom: 1px dashed var(--global-text-color);
           color: var(--global-theme-color);
         }
       }
