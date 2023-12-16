@@ -49,18 +49,18 @@ body.sticky-bottom-footer {
     li {
       .author {
         a {
-          border-bottom: 1px dashed var(--global-text-color);
+          border: none;
           color: var(--global-text-color);
 
           &:hover {
-            border-bottom-style: solid;
+            border: none;
             text-decoration: none;
             color: var(--global-hover-color);
           }
         }
 
         >em {
-          border-bottom: 1px dashed var(--global-text-color);
+          border: none;
           color: var(--global-theme-color);
         }
       }
