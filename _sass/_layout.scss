@@ -41,25 +41,6 @@ body.sticky-bottom-footer {
  ******************************************************************************/
 
 // TODO: redefine publications layout.
-// Publications
-.publications {
-  margin-top: 2rem;
-
-  ol.bibliography {
-    li {
-      .author {
-        
-
-        >em {
-          font-weight: bolder;
-          color: var(--global-text-color);
-        }
-      }
-
-    }
-  }
-}
-
 
 /*****************************************************************************
 * Projects
