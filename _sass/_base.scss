@@ -698,16 +698,16 @@ footer.sticky-bottom {
 
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          //border-bottom: 1px dashed var(--global-theme-color);
 
           &:hover {
-            border-bottom-style: solid;
+            //border-bottom-style: solid;
             text-decoration: none;
           }
         }
 
         >em {
-          border-bottom: none;//1px solid;
+          //border-bottom: 1px solid;
           font-style: normal;
         }
 
