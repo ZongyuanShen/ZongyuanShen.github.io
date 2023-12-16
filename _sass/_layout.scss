@@ -48,28 +48,14 @@ body.sticky-bottom-footer {
   ol.bibliography {
     li {
       .author {
-        a {
-          border: none;
-          color: var(--global-text-color);
-
-          &:hover {
-            border: none;
-            text-decoration: none;
-            color: var(--global-hover-color);
-          }
-        }
+        
 
         >em {
-          border-bottom: 0px solid;
+          font-weight: bolder;
           color: var(--global-theme-color);
         }
       }
 
-      .pub-note {
-        font-size: small;
-        font-style: italic;
-        color: var(--global-theme-color);
-      }
     }
   }
 }
