@@ -40,9 +40,9 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
         {% include figure.html path="assets/img/RR_4.svg" title="example image" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
-<div class="caption">
+<p align="center" style="font-size:0.9rem;">
     Figure 2: Illustration of the SMART algorithm: (a) tree-pruning and disjoint tree creation and (b)-(i) tree-repair and replanning.
-</div>
+</p>
 
 ## Simulation in the Dynamic Environments
 - Robot: holonomic model with constant speed of 4m/s.
@@ -54,7 +54,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RR_6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <p align="center">
+        <p align="center" style="font-size:0.9rem;">
             Table I: Comparison of key features of SMART with other tree-based reactive replanning algorithms.
         </p>
     </div>
@@ -65,14 +65,14 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
         {% include figure.html path="assets/img/RR_5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<p align="center" style="font-size:0.9rem;">
     Figure 3: Simulation testing scenarios.
-</div>
+</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_comparative_result_scene1_part1.svg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <p align="center">
+        <p align="center" style="font-size:0.9rem;">
             (a) Comparative evaluation for Scenario 1 with 10 moving obstacles.
         </p>
     </div>
@@ -80,30 +80,30 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_comparative_result_scene1_part2.svg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <p align="center">
+        <p align="center" style="font-size:0.9rem;">
             (b) Comparative evaluation for Scenario 1 with 15 moving obstacles.
         </p>
     </div>
 </div>
-<p align="center">
+<p align="center" style="font-size:0.9rem;">
     Figure 4: Comparative evaluation results of success rate and average replanning time for Scenario 1.
 </p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_comparative_result_scene1_part3.svg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <p align="center">
+        <p align="center" style="font-size:0.9rem;">
             (a) Comparative evaluation for Scenario 1 with 10 moving obstacles.
         </p>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_comparative_result_scene1_part4.svg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <p align="center">
+        <p align="center" style="font-size:0.9rem;">
             (b) Comparative evaluation for Scenario 1 with 15 moving obstacles.
         </p>
     </div>
 </div>
-<p align="center" style="font-size:0.875rem;">
+<p align="center" style="font-size:0.9rem;">
     Figure 5: Comparative evaluation results of travel time of successful trials for Scenario 1 with (a) 10 and (b) 15 moving obstacles. The plots show the median and the 25th and 75th percentile values.
 </p>
 
@@ -117,7 +117,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
         {% include figure.html path="assets/img/SMARTvsbaselineAlg_dynEnv_15obs_scene5.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<p align="center">
+<p align="center" style="font-size:0.9rem;">
     Figure 6: Demos for Scenario 1 with 15 moving obstacles. Both robot and obstacles move at a speed of 4m/s.
 </p>
 
