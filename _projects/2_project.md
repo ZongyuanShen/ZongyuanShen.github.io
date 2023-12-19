@@ -54,10 +54,10 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RR_6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <p align="center">
+            Table I: Comparison of key features of SMART with other tree-based reactive replanning algorithms.
+        </p>
     </div>
-</div>
-<div class="caption">
-    Table I: Comparison of key features of SMART with other tree-based reactive replanning algorithms.
 </div>
 
 <div class="row">
@@ -91,12 +91,21 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RR_8.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/SMART_comparative_result_scene1_part3.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <p align="center">
+            (a) Comparative evaluation for Scenario 1 with 10 moving obstacles.
+        </p>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/SMART_comparative_result_scene1_part4.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <p align="center">
+            (b) Comparative evaluation for Scenario 1 with 15 moving obstacles.
+        </p>
     </div>
 </div>
-<div class="caption">
+<p align="center">
     Figure 5: Comparative evaluation results of travel time of successful trials for Scenario 1 with (a) 10 and (b) 15 moving obstacles. The plots show the median and the 25th and 75th percentile values.
-</div>
+</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -108,9 +117,9 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
         {% include figure.html path="assets/img/SMARTvsbaselineAlg_dynEnv_15obs_scene5.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<p align="center">
     Figure 6: Demos for Scenario 1 with 15 moving obstacles. Both robot and obstacles move at a speed of 4m/s.
-</div>
+</p>
 
 ## Real Experiment in the Dynamic Environments
 - Robot: [ROSMASTER X3](https://category.yahboom.net/collections/ros-robotics/products/rosmaster-x3) equipped with 1) a RPLIDAR S2L lidar with a range of 8 m for obstacle detection, 2) MD520 motor with encoder for detection of rotation angle and linear displacement, and 3) MPU9250 IMU for detection of speed, acceleration, and orientation.
