@@ -45,7 +45,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 </div>
 
 ## Simulation in the Dynamic Environments
-- Holonomic robot: moves at a speed of 4m/s.
+- Robot: holonomic model with constant speed of 4m/s.
 - Dynamic obstacle: moves along a random heading for a random distance.
 - Scenario 1: 32m × 32m space populated with only dynamic obstacles.
 - Scenario 2: 66m × 38m space with a static obstacle layout and 10 dynamic obstacles.
@@ -71,11 +71,14 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RR_7.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/SMART_comparative_result_scene1_part1.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            (a) Comparative evaluation for Scenario 1 with 10 moving obstacles.
+        </div>
     </div>
 </div>
 <div class="caption">
-    Figure 4: Comparative evaluation results of success rate and average replanning time for Scenario 1 with (a) 10 and (b) 15 moving obstacles.
+    Figure 4: Comparative evaluation results of success rate and average replanning time for Scenario 1.
 </div>
 
 <div class="row">
@@ -92,8 +95,13 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
         {% include figure.html path="assets/img/SMARTvsbaselineAlg_dynEnv_15obs_scene1.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/SMARTvsbaselineAlg_dynEnv_15obs_scene5.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 <div class="caption">
-    Figure 6: Demo of SMART and three baseline algorithms for Scenario 1 with 15 moving obstacles. Both robot and obstacles move at a speed of 4m/s.
+    Figure 6: Demos for Scenario 1 with 15 moving obstacles. Both robot and obstacles move at a speed of 4m/s.
 </div>
 
 ## Real Experiment in the Dynamic Environments
