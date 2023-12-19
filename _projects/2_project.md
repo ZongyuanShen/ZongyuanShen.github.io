@@ -80,9 +80,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_comparative_result_scene1_part2.svg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            (a) Comparative evaluation for Scenario 1 with 15 moving obstacles.
-        </div>
+        (a) Comparative evaluation for Scenario 1 with 15 moving obstacles.
     </div>
 </div>
 <div class="caption">
