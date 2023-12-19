@@ -22,9 +22,9 @@ Typical path planning problems in a static environment aim to optimize the path 
         {% include figure.html path="assets/img/RR_3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<p align="center" style="font-size:0.9rem;">
     Figure 1: Applications of reactive plannning including self-driving cars, multi-robot system, and service robot.
-</div>
+</p>
 
 ## Method Overview
 We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)**, that facilitates real-time reactive replanning in dynamic environments for uninterrupted navigation. It is initialized by constructing a RRT* tree rooted at the goal and an initial path is found using the tree. As the cobot moves, the path could be blocked by dynamic obstacles. A new path is replanned following three steps: 1) tree-pruning, 2) tree-repair, and 3) tree-optimization.
