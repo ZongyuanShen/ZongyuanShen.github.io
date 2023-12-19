@@ -14,16 +14,25 @@ Typical path planning problems in a static environment aim to optimize the path 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RR_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <p align="center" style="font-size:0.9rem;">
+            (a) Self-driving car.
+        </p>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RR_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <p align="center" style="font-size:0.9rem;">
+            (b) Multi-robot system.
+        </p>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/RR_3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <p align="center" style="font-size:0.9rem;">
+            (c) Service robot.
+        </p>
     </div>
 </div>
 <p align="center" style="font-size:0.9rem;">
-    Figure 1: Applications of reactive plannning including self-driving cars, multi-robot system, and service robot.
+    Figure 1: Applications of reactive path replanning.
 </p>
 
 ## Method Overview
@@ -73,7 +82,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_comparative_result_scene1_part1.svg" title="example image" class="img-fluid rounded z-depth-1" %}
         <p align="center" style="font-size:0.9rem;">
-            (a) Comparative evaluation for Scenario 1 with 10 moving obstacles.
+            (a) Comparison of success rate and replanning time for Scenario 1 with 10 moving obstacles.
         </p>
     </div>
 </div>
@@ -81,7 +90,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_comparative_result_scene1_part2.svg" title="example image" class="img-fluid rounded z-depth-1" %}
         <p align="center" style="font-size:0.9rem;">
-            (b) Comparative evaluation for Scenario 1 with 15 moving obstacles.
+            (b) Comparison of success rate and replanning time for Scenario 1 with 15 moving obstacles.
         </p>
     </div>
 </div>
@@ -93,18 +102,18 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_comparative_result_scene1_part3.svg" title="example image" class="img-fluid rounded z-depth-1" %}
         <p align="center" style="font-size:0.9rem;">
-            (a) Comparative evaluation for Scenario 1 with 10 moving obstacles.
+            (a) Comparison of travel time for Scenario 1 with 10 moving obstacles.
         </p>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_comparative_result_scene1_part4.svg" title="example image" class="img-fluid rounded z-depth-1" %}
         <p align="center" style="font-size:0.9rem;">
-            (b) Comparative evaluation for Scenario 1 with 15 moving obstacles.
+            (b) Comparison of travel time for Scenario 1 with 15 moving obstacles.
         </p>
     </div>
 </div>
 <p align="center" style="font-size:0.9rem;">
-    Figure 5: Comparative evaluation results of travel time of successful trials for Scenario 1 with (a) 10 and (b) 15 moving obstacles. The plots show the median and the 25th and 75th percentile values.
+    Figure 5: Comparative evaluation results of travel time of successful trials for Scenario 1. The plots show the median and the 25th and 75th percentile values.
 </p>
 
 <div class="row">
@@ -131,11 +140,12 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
         {% include figure.html path="assets/img/SMART_experiment.gif" title="example image" class="img-fluid rounded z-depth-1" width="600"%}
     </div>
 </div>
-<div class="caption">
-</div>
+<p align="center" style="font-size:0.9rem;">
+    Figure 7: Real experiment of SMART in a lab space.
+</p>
 
 ## Simulation in the Unknown Static Environments
-- Holonomic robot: moves at a speed of 4m/s and is equipped with a lidar with a range of 8m for obstacle detection.
+- Robot: holonomic model with constant speed of 4m/s and a lidar with a range of 8m for obstacle detection.
 - Scenario 1: 62m × 32m indoor office environment.
 - Scenario 2: 62m × 32m outdoor forest environment.
 
@@ -147,8 +157,9 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
         {% include figure.html path="assets/img/SMART_unknownEnv_scene2.gif" title="example image" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
-<div class="caption">
-</div>
+<p align="center" style="font-size:0.9rem;">
+    Figure 8: Demo of SMART in two different unknown scenarios.
+</p>
   
 ## Related Paper
 - Z. Shen, J. P. Wilson, S. Gupta, and R. Harvey, “SMART: Self-morphing adaptive replanning tree,” IEEE Robotics and Automation Letters, vol. 8, no. 11, pp. 7312–7319, Sep. 2023.
