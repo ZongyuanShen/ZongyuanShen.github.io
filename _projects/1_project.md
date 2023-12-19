@@ -14,16 +14,25 @@ Typical operations of autonomous vehicles such as terrain mapping, arable farmin
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/CPP_1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <p align="center" style="font-size:0.9rem;">
+            (a) Seabed mapping.
+        </p>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/CPP_2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <p align="center" style="font-size:0.9rem;">
+            (b) Arable farming.
+        </p>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/CPP_3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <p align="center" style="font-size:0.9rem;">
+            (c) Floor cleaning.
+        </p>
     </div>
 </div>
 <p align="center" style="font-size:0.9rem;">
-    Figure 1: Applications of coverage path planning including seabed mapping, arable farming, and floor cleaning.
+    Figure 1: Applications of coverage path planning.
 </p>
 
 Now, I am working on the online coverage path planning problem in a number of topics as listed below.
