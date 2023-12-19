@@ -158,7 +158,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     </div>
 </div>
 <p align="center" style="font-size:0.9rem;">
-    Figure 8: Demo of SMART in two different unknown scenarios.
+    Figure 8: Validation of SMART in two different unknown scenarios.
 </p>
   
 ## Related Paper
