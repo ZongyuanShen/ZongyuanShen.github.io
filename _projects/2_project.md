@@ -87,7 +87,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     </div>
 </div>
 <p align="center" style="font-size:0.9rem;">
-    Figure 4: Comparative evaluation results of success rate and average replanning time.
+    Figure 3: Comparative evaluation results of success rate and average replanning time.
 </p>
 
 <div class="row">
@@ -105,7 +105,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     </div>
 </div>
 <p align="center" style="font-size:0.9rem;">
-    Figure 5: Comparative evaluation results of travel time of successful trials. The plots show the median and the 25th and 75th percentile values.
+    Figure 4: Comparative evaluation results of travel time of successful trials. The plots show the median and the 25th and 75th percentile values.
 </p>
 
 <div class="row">
@@ -119,7 +119,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     </div>
 </div>
 <p align="center" style="font-size:0.9rem;">
-    Figure 6: Demos for the scenario with 15 moving obstacles. Both robot and obstacles move at a speed of 4m/s.
+    Figure 5: Demos for the scenario with 15 moving obstacles. Both robot and obstacles move at a speed of 4m/s.
 </p>
 
 ## Real Experiment in the Dynamic Environments
@@ -133,7 +133,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     </div>
 </div>
 <p align="center" style="font-size:0.9rem;">
-    Figure 7: Real experiment of SMART in a lab space.
+    Figure 6: Real experiment of SMART in a lab space.
 </p>
 
 ## Simulation in the Unknown Static Environments
@@ -150,7 +150,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     </div>
 </div>
 <p align="center" style="font-size:0.9rem;">
-    Figure 8: Validation of SMART in two different unknown scenarios.
+    Figure 7: Validation of SMART in two different unknown scenarios.
 </p>
   
 ## Related Paper
