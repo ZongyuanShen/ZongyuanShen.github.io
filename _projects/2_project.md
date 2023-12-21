@@ -55,9 +55,10 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 
 ## Simulation in the Dynamic Environments
 - Robot: holonomic model with constant speed of 4m/s.
-- Dynamic obstacle: moves along a random heading for a random distance.
-- Scenario 1: 32m × 32m space populated with only dynamic obstacles.
-- Scenario 2: 66m × 38m space with a static obstacle layout and 10 dynamic obstacles.
+- Moving obstacle: moves along a random heading for a random distance.
+- Scenario: 32m × 32m open space populated with only moving obstacles.
+- Case studies: Two cases are conducted including 10 and 15 obstacles. Each obstacle moves at the same speed selected from the set {1,2,3,4}m/s, resulting in 8 different combinations of the number of obstacles and speeds. For each combination, 30 different obstacle trajectories are generated, resulting in a total of 240 case studies.
+- Metrics: 1) Replanning time: Time to replan a new path, 2) Success rate: Fraction of successful runs out of the total, and 3) Travel time: Time from start to goal without collision.
 - Baseline algorithms: [D* Lite](https://cdn.aaai.org/AAAI/2002/AAAI02-072.pdf), [ERRT](https://ieeexplore.ieee.org/abstract/document/1041624), [DRRT](https://ieeexplore.ieee.org/document/1641879), [MPRRT](https://ieeexplore.ieee.org/document/4209317), [RRTX](https://journals.sagepub.com/doi/full/10.1177/0278364915594679), [HLRRT](https://link.springer.com/article/10.1007/s10514-019-09879-8)*, [EBGRRT](https://www.sciencedirect.com/science/article/abs/pii/S0921889020304358), [MODRRT*](https://ieeexplore.ieee.org/document/9115288).
 
 <div class="row">
@@ -71,18 +72,9 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RR_5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<p align="center" style="font-size:0.9rem;">
-    Figure 3: Simulation testing scenarios.
-</p>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_comparative_result_scene1_part1.svg" title="example image" class="img-fluid rounded z-depth-1" %}
         <p align="center" style="font-size:0.9rem;">
-            (a) Comparison of success rate and replanning time for Scenario 1 with 10 moving obstacles.
+            (a) Comparison of success rate and replanning time for the scenario with 10 moving obstacles.
         </p>
     </div>
 </div>
@@ -90,30 +82,30 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_comparative_result_scene1_part2.svg" title="example image" class="img-fluid rounded z-depth-1" %}
         <p align="center" style="font-size:0.9rem;">
-            (b) Comparison of success rate and replanning time for Scenario 1 with 15 moving obstacles.
+            (b) Comparison of success rate and replanning time for the scenario with 15 moving obstacles.
         </p>
     </div>
 </div>
 <p align="center" style="font-size:0.9rem;">
-    Figure 4: Comparative evaluation results of success rate and average replanning time for Scenario 1.
+    Figure 4: Comparative evaluation results of success rate and average replanning time.
 </p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_comparative_result_scene1_part3.svg" title="example image" class="img-fluid rounded z-depth-1" %}
         <p align="center" style="font-size:0.9rem;">
-            (a) Comparison of travel time for Scenario 1 with 10 moving obstacles.
+            (a) Comparison of travel time for the scenario with 10 moving obstacles.
         </p>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_comparative_result_scene1_part4.svg" title="example image" class="img-fluid rounded z-depth-1" %}
         <p align="center" style="font-size:0.9rem;">
-            (b) Comparison of travel time for Scenario 1 with 15 moving obstacles.
+            (b) Comparison of travel time for the scenario with 15 moving obstacles.
         </p>
     </div>
 </div>
 <p align="center" style="font-size:0.9rem;">
-    Figure 5: Comparative evaluation results of travel time of successful trials for Scenario 1. The plots show the median and the 25th and 75th percentile values.
+    Figure 5: Comparative evaluation results of travel time of successful trials. The plots show the median and the 25th and 75th percentile values.
 </p>
 
 <div class="row">
@@ -127,13 +119,13 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     </div>
 </div>
 <p align="center" style="font-size:0.9rem;">
-    Figure 6: Demos for Scenario 1 with 15 moving obstacles. Both robot and obstacles move at a speed of 4m/s.
+    Figure 6: Demos for the scenario with 15 moving obstacles. Both robot and obstacles move at a speed of 4m/s.
 </p>
 
 ## Real Experiment in the Dynamic Environments
 - Robot: [ROSMASTER X3](https://category.yahboom.net/collections/ros-robotics/products/rosmaster-x3) equipped with 1) a RPLIDAR S2L lidar with a range of 8 m for obstacle detection, 2) MD520 motor with encoder for detection of rotation angle and linear displacement, and 3) MPU9250 IMU for detection of speed, acceleration, and orientation.
 - Localization: An Extended Kalman Filter is used to fuse data from the IMU and motor encoder for localization.
-- Scenario: 7m × 7m lab space with both static and three moving humans.
+- Scenario: 7m × 7m lab space with a static layout and three humans.
 
 <div class="row">
      <div class="col-sm mt-3 mt-md-0">
