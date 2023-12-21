@@ -90,7 +90,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
         
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SMART_comparative_result_scene1_part3.svg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/mc_result_TravelTime_part1.pdf" title="example image" class="img-fluid rounded z-depth-1" %}
         <p align="center" style="font-size:0.9rem;">
             (a) Comparison of travel time for the scenario with 10 obstacles.
         </p>
