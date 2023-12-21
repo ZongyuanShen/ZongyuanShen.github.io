@@ -27,7 +27,7 @@ With the rapid development of artificial intelligence, the application of robots
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/AR_3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
         <p align="center" style="font-size:0.9rem;">
-            (c) Human-robot collaboration
+            (c) Human-robot collaboration.
         </p>
     </div>
 </div>
