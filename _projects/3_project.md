@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Active Path Replanning
+title: Active Motion Replanning
 description:
 img: assets/img/4.jpg
 importance: 1
