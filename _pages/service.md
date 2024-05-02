@@ -6,11 +6,10 @@ nav: true
 nav_order: 4
 ---
 
-### Journal Reviewer
+### Peer Reviewer
+- IEEE Systems Journal
+- IEEE/CAA Journal of Automatica Sinica
 - IEEE Robotics and Automation Letters
 - IEEE Journal of Oceanic Engineering
 - Expert Systems With Applications
-  
-### Conference Reviewer
-- International Conference on Robotics and Automation (ICRA)
-- International Conference on Intelligent Robots and Systems (IROS)
+- International Conference on Robotics and Automation
