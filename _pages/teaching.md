@@ -41,7 +41,7 @@ nav_order: 3
         </span>
       </div>
     </div>
-    <h6 class="font-italic mt-2 mt-sm-0">Fall 2023, 2024: Teaching Assistant and Co-Designer </h6>
+    <h6 class="font-italic mt-2 mt-sm-0">Fall 2023, 2024: Teaching Assistant, Co-Designer </h6>
     <ul class="font-weight-light list-group list-group-flush">
       <li class="list-group-item">○ It is an intermediate undergraduate course taught by <a href="https://www.ee.uconn.edu/shalabh-gupta/" target="_blank">Prof. Shalabh Gupta</a>. Topics include obstacle avoidance, environment mapping, robot localization, shortest path planning using potential field-based, grid-based and sampling-based methods, coverage path planning using cellular decomposition, spanning trees and potential fields, deep neural networks, and motion planning under constraints, adaptive planning in changing environments. </li>
       <li class="list-group-item">○ I co-designed the course outline and lecture materials, held office hours, and graded homework.</li>
@@ -61,7 +61,7 @@ nav_order: 3
         </span>
       </div>
     </div>
-    <h6 class="font-italic mt-2 mt-sm-0">Fall 2018-2023: Teaching Assistant</h6>
+    <h6 class="font-italic mt-2 mt-sm-0">Fall 2018-2023: Teaching Assistant, Instructor of Discussion Section</h6>
     <ul class="font-weight-light list-group list-group-flush">
       <li class="list-group-item">○ It is an intermediate undergraduate course taught by <a href="https://www.bme.uconn.edu/faculty-staff/core-faculty/escabi-monty/" target="_blank">Prof. Monty Escabi</a> and  <a href="https://www.ee.uconn.edu/liang-zhang/" target="_blank">Prof. Liang Zhang</a>. Topics include representation of signals in the time and frequency domains and system analysis using Fourier, Laplace, and z transforms.</li>
       <li class="list-group-item">○ I developed lecture materials and practice problems for weekly discussion sections of up to 35 students, held office hours, and graded homework, term projects and exams.</li>
