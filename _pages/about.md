@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+subtitle: Ph.D. Candidate in Electrical and Computer Engineering, University of Connecticut, Storrs, CT, USA.
 
 
 profile:
