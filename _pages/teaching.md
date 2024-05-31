@@ -16,7 +16,7 @@ nav_order: 3
         <h5 class="font-weight-bold">Introduction to Robotics</h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold blue darken-4 text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/3162/" target="_blank">
+        <span class="badge font-weight-bold blue darken-3 text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/3162/" target="_blank">
             3161
         </span>
       </div>
@@ -36,7 +36,7 @@ nav_order: 3
         <h5 class="font-weight-bold">Robot Motion Planning</h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold blue darken-4 text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/3162/" target="_blank">
+        <span class="badge font-weight-bold blue darken-3 text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/3162/" target="_blank">
             3162
         </span>
       </div>
@@ -56,7 +56,7 @@ nav_order: 3
         <h5 class="font-weight-bold">Signal and Systems</h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold blue darken-4 text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/3101/" target="_blank">
+        <span class="badge font-weight-bold blue darken-3 text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/3101/" target="_blank">
             3101
         </span>
       </div>
@@ -77,7 +77,7 @@ nav_order: 3
         <h5 class="font-weight-bold">Introduction to Digital Signal Processing</h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold blue darken-4 text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/4131/" target="_blank">
+        <span class="badge font-weight-bold blue darken-3 text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/4131/" target="_blank">
             4131
         </span>
       </div>
@@ -97,7 +97,7 @@ nav_order: 3
         <h5 class="font-weight-bold">Digital Signal Processing</h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold blue darken-4 text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/4131/" target="_blank">
+        <span class="badge font-weight-bold blue darken-3 text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/4131/" target="_blank">
             6122
         </span>
       </div>
