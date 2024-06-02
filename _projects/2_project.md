@@ -9,7 +9,7 @@ related_publications:
 ---
 
 ## Introduction
-Typical path planning problems in a static environment aim to optimize the path between the start and goal states by minimizing a user-specified cost-function (e.g., travel time). However, many real world applications (e.g., airports, factories, malls, offices, hospitals and homes) consist of moving obstacles (e.g., humans, robots, carts and wheelchairs). It is envisioned that these applications will be increasingly witnessing the role of cobots in supporting humans for various tasks. It is desired that these cobots autonomously navigate in dynamic environments while replanning in real-time as needed to achieve: 1) high success rates and 2) low travel times. Replanning strategies are characterized as proactive or reactive. The proactive strategies predict the future trajectories of moving obstacles to replan the robot’s path; however, their performance degrades in crowded environments where these trajectories are difficult to compute, associate and predict. Therefore, the reactive strategies replan the robot’s path based on the current information.
+Typical path planning problems in static environments aim to optimize the path between the start and goal states by minimizing a user-specified cost-function (e.g., travel time). However, many real world applications (e.g., airports, factories, malls, offices, hospitals and homes) consist of dynamic obstacles (e.g., pedestrians, robots, carts and wheelchairs). It is envisioned that these applications will be increasingly witnessing the role of robots in supporting humans for various tasks. It is desired that these robots autonomously navigate in dynamic environments while replanning in real-time as needed to achieve high success rates and low travel times. Replanning strategies are characterized as reactive or proactive. Reactive strategies replan the path based on the current observations, which is useful when the future trajectories of dynamic obstacles are difficult to compute, associate and predict. Proactive strategies predict the trajectories of dynamic obstacles and then integrate the predicted information into the replanning algorithm to generate new paths which can actively avoid collisions to the dynamic obstacles in the spatio-temporal domain.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -108,6 +108,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     Figure 5: Comparison of travel time of successful trials. The plots show the median and the 25th and 75th percentile values.
 </p>
 
+**Navigation in Dynamic Environments**
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMARTvsbaselineAlg_dynEnv_15obs_scene1.gif" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -136,7 +137,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     Video 2: Real experiment of SMART in a lab space.
 </p>
 
-**Navigation in Unknown Scenarios**
+**Navigation in Unknown Environments**
 - Robot: holonomic model with constant speed of 4m/s and a lidar with a range of 8m for static obstacle detection.
 - Scenario 1: 62m × 32m indoor office environment.
 - Scenario 2: 62m × 32m outdoor forest environment.
