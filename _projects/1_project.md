@@ -73,7 +73,7 @@ The CT-CPP algorithm is validated on a high-fidelity underwater simulator called
 - Z. Shen, J. Song, K. Mittal, and S. Gupta, “Autonomous 3-D mapping and safe-path planning for underwater terrain reconstruction using multi-level coverage trees,” in Proc. OCEANS'17 MTS/IEEE, Anchorage, AK, USA, Sep. 2017, pp. 1–6. [<b><a href="https://ieeexplore.ieee.org/document/8232157">Paper</a></b>]
 - Z. Shen, J. Song, K. Mittal, and S. Gupta, “An autonomous integrated system for 3-d underwater terrain map reconstruction,” in Proc. OCEANS'16 MTS/IEEE, Monterey, CA, USA, Sep. 2016, pp. 1–6. [<b><a href="https://ieeexplore.ieee.org/abstract/document/7761067">Paper</a></b>]
 
-## Deep-learning based Coverage Path Planning
+## Coverage Path Planning using Neural Network
 
 **Motivation:** CPP in known environments is an application of the traveling salesman problem (TSP), in that the optimal CPP trajectory is also an optimal TSP tour. Finding the optimal solution, however, is NP-Hard. While many heuristics exist, these methods are either: i) sub-optimal, or ii) not suitable for online computation. Many robot missions are dynamic in nature, requiring fast online coverage path replanning in response to changes in the environment, robot, or mission objectives. Thus, it is essential to develop a coverage path planner that can quickly find near-optimal tours under dynamic conditions.
 
@@ -102,7 +102,7 @@ The CT-CPP algorithm is validated on a high-fidelity underwater simulator called
 **Related Paper:**
 - Z. Shen, P. Agrawal, J. P. Wilson, R. Harvey, and S. Gupta, “CPPNet: A coverage path planning network,” in Proc. OCEANS'21 MTS/IEEE, San Diego, CA, USA, Sep. 2021, pp. 1–5. [<b><a href="https://ieeexplore.ieee.org/abstract/document/9705671">Paper</a></b>]
 
-## 2D Coverage Path Planning Under Energy Constraints
+## Coverage Path Planning Under Energy Constraints
 
 **Motivation:** In the real-life situations, autonoumous robots are energy-constrained due to the limited size of batteries; thus limiting their duration of operation. Especially to cover a large area, it may not be able to finish the task in one iteration. Therefore, while executing a coverage trajectory, the robot has to return to the charging station for a recharge before the battery runs out and then contiunous the work. While a variety of CPP methods are available in literature, only a limited body of work has focused on energy-constrained CPP problem.
 
