@@ -56,9 +56,8 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 
 **Performance Comparison with State-of-the-art**
 - Robot: holonomic model with constant speed of 4m/s.
-- Moving obstacle: moves along a random heading for a random distance.
-- Scenario: 32m × 32m open space populated with only moving obstacles.
-- Case studies: Two cases are conducted including 10 and 15 obstacles. Each obstacle moves at the same speed selected from the set {1,2,3,4}m/s, resulting in 8 different combinations of the number of obstacles and speeds. For each combination, 30 different obstacle trajectories are generated, resulting in a total of 240 case studies.
+- Dynamic obstacle: moves with different speeds.
+- Scenario: 66m × 38m factory environment with static obstacle layout and 10 dynamic obstacles.
 - Metrics: 1) Replanning time: Time to replan a new path, 2) Success rate: Fraction of successful runs out of the total, and 3) Travel time: Time from start to goal without collision.
 - Baseline algorithms: [D* Lite](https://cdn.aaai.org/AAAI/2002/AAAI02-072.pdf), [ERRT](https://ieeexplore.ieee.org/abstract/document/1041624), [DRRT](https://ieeexplore.ieee.org/document/1641879), [MPRRT](https://ieeexplore.ieee.org/document/4209317), [RRTX](https://journals.sagepub.com/doi/full/10.1177/0278364915594679), [HLRRT](https://link.springer.com/article/10.1007/s10514-019-09879-8)*, [EBGRRT](https://www.sciencedirect.com/science/article/abs/pii/S0921889020304358), [MODRRT*](https://ieeexplore.ieee.org/document/9115288).
 
@@ -67,47 +66,12 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
         {% include figure.html path="assets/img/SMART_comparative_result.svg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<p align="center" style="font-size:0.9rem;">
-    Figure 3: Comparison of success rate and replanning time for the scenario with 10 obstacles.
-</p>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SMART_comparative_result_scene1_part1.svg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<p align="center" style="font-size:0.9rem;">
-    Figure 3: Comparison of success rate and replanning time for the scenario with 10 obstacles.
-</p>
+**Demo 1: Navigation in Dynamic Environments**
+- Robot: holonomic model with constant speed of 4m/s.
+- Dynamic obstacle: holonomic model with constant speed of 4m/s.
+- Scenario: 32m × 32m open space with 15 dynamic obstacles.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SMART_comparative_result_scene1_part2.svg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<p align="center" style="font-size:0.9rem;">
-    Figure 4: Comparison of success rate and replanning time for the scenario with 15 obstacles.
-</p>
-        
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SMART_comparative_result_scene1_part3.svg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <p align="center" style="font-size:0.9rem;">
-            (a) Comparison of travel time for the scenario with 10 obstacles.
-        </p>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SMART_comparative_result_scene1_part4.svg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <p align="center" style="font-size:0.9rem;">
-            (b) Comparison of travel time for the scenario with 15 obstacles.
-        </p>
-    </div>
-</div>
-<p align="center" style="font-size:0.9rem;">
-    Figure 5: Comparison of travel time of successful trials. The plots show the median and the 25th and 75th percentile values.
-</p>
-
-**Navigation in Dynamic Environments**
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMARTvsbaselineAlg_dynEnv_15obs_scene1.gif" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -118,11 +82,8 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
         {% include figure.html path="assets/img/SMARTvsbaselineAlg_dynEnv_15obs_scene5.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<p align="center" style="font-size:0.9rem;">
-    Video 1: Demos for the scenario with 15 moving obstacles. Both robot and obstacles move at a speed of 4m/s.
-</p>
 
-**Real Experiment in Dynamic Lab Scenario**
+**Demo 2: Real Experiment in Dynamic Lab Scenario**
 - Robot: [ROSMASTER X3](https://category.yahboom.net/collections/ros-robotics/products/rosmaster-x3) equipped with 1) a RPLIDAR S2L lidar with a range of 8 m for obstacle detection, 2) MD520 motor with encoder for detection of rotation angle and linear displacement, and 3) MPU9250 IMU for detection of speed, acceleration, and orientation.
 - Localization: An Extended Kalman Filter is used to fuse data from the IMU and motor encoder for localization.
 - Scenario: 7m × 7m lab space with a static layout and three humans.
@@ -132,11 +93,8 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
         {% include figure.html path="assets/img/SMART_experiment.gif" title="example image" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
-<p align="center" style="font-size:0.9rem;">
-    Video 2: Real experiment of SMART in a lab space.
-</p>
 
-**Navigation in Unknown Environments**
+**Demo 3: Navigation in Unknown Environments**
 - Robot: holonomic model with constant speed of 4m/s and a lidar with a range of 8m for static obstacle detection.
 - Scenario 1: 62m × 32m indoor office environment.
 - Scenario 2: 62m × 32m outdoor forest environment.
@@ -149,9 +107,6 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
         {% include figure.html path="assets/img/SMART_unknownEnv_scene2.gif" title="example image" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
-<p align="center" style="font-size:0.9rem;">
-    Video 3: Validation of SMART in two unknown static scenarios.
-</p>
   
 **Related Paper**
 - Z. Shen, J. P. Wilson, S. Gupta, and R. Harvey, “SMART: Self-morphing adaptive replanning tree,” IEEE Robotics and Automation Letters, vol. 8, no. 11, pp. 7312–7319, Sep. 2023. [<b><a href="https://ieeexplore.ieee.org/document/10250928">Paper</a></b>][<b><a href="https://github.com/ZongyuanShen/SMART">Code</a></b>][<b><a href="https://drive.google.com/file/d/1d_cqbyHNAHxAA4SC-DgQBfWWJfAHBIod/view?usp=drive_link">Slide</a></b>]
