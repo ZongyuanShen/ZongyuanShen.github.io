@@ -54,7 +54,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
     Figure 2: Illustration of the SMART algorithm: (a) tree-pruning and disjoint tree creation and (b)-(i) tree-repair and replanning.
 </p>
 
-**Simulation in the Dynamic Environments**
+**Performance Comparison with State-of-the-art**
 - Robot: holonomic model with constant speed of 4m/s.
 - Moving obstacle: moves along a random heading for a random distance.
 - Scenario: 32m × 32m open space populated with only moving obstacles.
@@ -64,12 +64,12 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RR_6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <p align="center" style="font-size:0.9rem;">
-            Table 1: Comparison of key features of SMART with other tree-based reactive replanning algorithms.
-        </p>
+        {% include figure.html path="assets/img/SMART_comparative_result.svg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<p align="center" style="font-size:0.9rem;">
+    Figure 3: Comparison of success rate and replanning time for the scenario with 10 obstacles.
+</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
