@@ -32,7 +32,7 @@ Typical operations of autonomous vehicles such as terrain mapping, arable farmin
     </div>
 </div>
 <p align="center" style="font-size:0.9rem;">
-    Figure 1: Applications of coverage path planning.
+    Figure 1: Applications of coverage path planning algorithms.
 </p>
 
 ## 3D Coverage Path Planning Under Sensing Limitations
