@@ -32,7 +32,7 @@ Typical path planning problems in static environments aim to optimize the path b
     </div>
 </div>
 <p align="center" style="font-size:0.9rem;">
-    Figure 1: Applications of reactive path replanning.
+    Figure 1: Applications of dynamic motion planning algorithms.
 </p>
 
 ## Reactive Motion Planning Algorithm
