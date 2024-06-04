@@ -2,7 +2,7 @@
 layout: page
 title: Motion Planning in Dynamic Environments
 description:
-img: assets/img/RR_1.jpg
+img: assets/img/Picture1.jpg
 importance: 1
 category: work
 related_publications: 
