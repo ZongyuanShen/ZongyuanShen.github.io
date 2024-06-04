@@ -2,7 +2,7 @@
 layout: page
 title: Coverage Path Planning in Unknown Environments
 description:
-img: assets/img/12.jpg
+img: assets/img/CPP_1.jpg
 importance: 1
 category: work
 related_publications: 
