@@ -56,7 +56,7 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 
 **Performance Comparison with State-of-the-art**
 - Robot: holonomic model with constant speed of 4m/s.
-- Dynamic obstacle: moves with different speeds.
+- Dynamic obstacle: holonomic model with different speeds.
 - Scenario: 66m × 38m factory environment with static obstacle layout and 10 dynamic obstacles.
 - Metrics: 1) Replanning time: Time to replan a new path, 2) Success rate: Fraction of successful runs out of the total, and 3) Travel time: Time from start to goal without collision.
 - Baseline algorithms: [D* Lite](https://cdn.aaai.org/AAAI/2002/AAAI02-072.pdf), [ERRT](https://ieeexplore.ieee.org/abstract/document/1041624), [DRRT](https://ieeexplore.ieee.org/document/1641879), [MPRRT](https://ieeexplore.ieee.org/document/4209317), [RRTX](https://journals.sagepub.com/doi/full/10.1177/0278364915594679), [HLRRT](https://link.springer.com/article/10.1007/s10514-019-09879-8)*, [EBGRRT](https://www.sciencedirect.com/science/article/abs/pii/S0921889020304358), [MODRRT*](https://ieeexplore.ieee.org/document/9115288).
