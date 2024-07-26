@@ -15,11 +15,6 @@ nav_order: 3
       <div class="col-sm-10">
         <h5 class="font-weight-bold">Introduction to Robotics</h5>
       </div>
-      <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold blue text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/3162/" target="_blank">
-            3161
-        </span>
-      </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">Spring 2024: Teaching Assistant</h6>
     <ul class="font-weight-light list-group list-group-flush">
