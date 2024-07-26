@@ -30,11 +30,6 @@ nav_order: 3
       <div class="col-sm-10">
         <h5 class="font-weight-bold">Robot Motion Planning</h5>
       </div>
-      <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold blue darken-3 text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/3162/" target="_blank">
-            3162
-        </span>
-      </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">Fall 2023, 2024: Teaching Assistant, Co-Designer </h6>
     <ul class="font-weight-light list-group list-group-flush">
@@ -49,11 +44,6 @@ nav_order: 3
     <div class="row">
       <div class="col-sm-10">
         <h5 class="font-weight-bold">Signal and Systems</h5>
-      </div>
-      <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold blue darken-3 text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/3101/" target="_blank">
-            3101
-        </span>
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">Fall 2018-2023: Teaching Assistant, Instructor of Discussion Section</h6>
@@ -71,11 +61,6 @@ nav_order: 3
       <div class="col-sm-10">
         <h5 class="font-weight-bold">Introduction to Digital Signal Processing</h5>
       </div>
-      <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold blue darken-3 text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/4131/" target="_blank">
-            4131
-        </span>
-      </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">Spring 2018: Grader</h6>
     <ul class="font-weight-light list-group list-group-flush">
@@ -90,11 +75,6 @@ nav_order: 3
     <div class="row">
       <div class="col-sm-10">
         <h5 class="font-weight-bold">Digital Signal Processing</h5>
-      </div>
-      <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold blue darken-3 text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/4131/" target="_blank">
-            6122
-        </span>
       </div>
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">Spring 2018: Grader</h6>
