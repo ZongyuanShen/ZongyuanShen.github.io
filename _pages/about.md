@@ -25,6 +25,6 @@ I am passionate about developing motion and path planning algorithms that allow 
 
 <p style="color:red;">
 <b>
-  I am the in-coming Postdoctoral Fellow in the Robotics Institute at Carnegie Mellon University.
+  I am an in-coming Postdoctoral Fellow in the Robotics Institute at Carnegie Mellon University.
 </b>
 </p>
