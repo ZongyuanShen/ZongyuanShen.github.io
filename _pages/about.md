@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a final-year Ph.D. candidate in the [Department of Electrical and Computer Engineering](https://www.ee.uconn.edu/) at [University of Connecticut](https://uconn.edu/), advised by Professor [Shalabh Gupta](https://www.ee.uconn.edu/shalabh-gupta/) and co-advised by Professor [Shengli Zhou](https://www.ee.uconn.edu/shengli-zhou/) and Professor [Liang Zhang](https://www.ee.uconn.edu/liang-zhang/). I did my masters in the same lab. I received my bachelor's degree in Electronic and Information Engineering from Heilongjiang University of Science and Technology in China in 2014. 
+I am a final-year Ph.D. candidate in the [Department of Electrical and Computer Engineering](https://www.ee.uconn.edu/) at [University of Connecticut](https://uconn.edu/), advised by Professor [Shalabh Gupta](https://www.ee.uconn.edu/shalabh-gupta/) and co-advised by Professor [Shengli Zhou](https://www.ee.uconn.edu/shengli-zhou/) and Professor [Liang Zhang](https://www.ee.uconn.edu/liang-zhang/). I did my masters in the same lab. I received my bachelor's degree from Heilongjiang University of Science and Technology in China in 2014. 
 
 I am passionate about developing motion and path planning algorithms that allow the robots to perform various tasks safely in complex, dynamic, and unknown environments. In particular, my current research involves two topics:
 
