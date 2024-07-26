@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-09-21
-inline: true
+inline: false
 related_posts: false
 ---
 
