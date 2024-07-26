@@ -16,7 +16,7 @@ nav_order: 3
         <h5 class="font-weight-bold">Introduction to Robotics</h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold blue-accent-4 text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/3162/" target="_blank">
+        <span class="badge font-weight-bold blue text-uppercase align-middle" href="https://catalog.uconn.edu/directory-of-courses/course/ECE/3162/" target="_blank">
             3161
         </span>
       </div>
