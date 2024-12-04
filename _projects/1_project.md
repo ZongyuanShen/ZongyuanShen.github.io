@@ -35,7 +35,7 @@ Typical operations of autonomous vehicles such as terrain mapping, arable farmin
     Figure 1: Applications of coverage path planning algorithms.
 </p>
 
-## 3D Coverage Path Planning Under Sensing Limitations
+## 3D Coverage Path Planning
 
 **Motivation:**
 Existing CPP methods are of two types: 2D and 3D. While 2D methods are applied for tasking on 2D surfaces (e.g., floor cleaning and lawn mowing), they are rendered insufficient for applications involving 3D surfaces. For example, a 2D CPP method can be applied for mapping a 3D underwater terrain by operating an autonomous underwater vehicle (AUV) at a fixed depth, such that the side-scan sonar can scan the seabed. However, this method will be unable to explore the regions above the AUV, thus generating an incomplete terrain map. On the other hand, if the AUV is operated at a higher level, then the sensors will be unable to scan the terrain due to their limited field of view. Therefore, a 3D CPP method is needed for 3D terrain mapping.
@@ -70,8 +70,11 @@ The CT-CPP algorithm is validated on a high-fidelity underwater simulator called
 
 **Related Papers:**
 - Z. Shen, J. Song, K. Mittal, and S. Gupta, “CT-CPP: Coverage path planning for 3D terrain reconstruction using dynamic coverage trees,” IEEE Robotics and Automation Letters, vol. 7, no. 1, pp. 135–142, Jan. 2022. [<b><a href="https://ieeexplore.ieee.org/abstract/document/9573264">Paper</a></b>][<b><a href="https://drive.google.com/file/d/1XSsm64LvsbXlODqu2VYrISYYgJDlc3WC/view">Slide</a></b>]
+<!--
 - Z. Shen, J. Song, K. Mittal, and S. Gupta, “Autonomous 3-D mapping and safe-path planning for underwater terrain reconstruction using multi-level coverage trees,” in Proc. OCEANS'17 MTS/IEEE, Anchorage, AK, USA, Sep. 2017, pp. 1–6. [<b><a href="https://ieeexplore.ieee.org/document/8232157">Paper</a></b>]
-- Z. Shen, J. Song, K. Mittal, and S. Gupta, “An autonomous integrated system for 3-d underwater terrain map reconstruction,” in Proc. OCEANS'16 MTS/IEEE, Monterey, CA, USA, Sep. 2016, pp. 1–6. [<b><a href="https://ieeexplore.ieee.org/abstract/document/7761067">Paper</a></b>]
+- Z. Shen, J. Song, K. Mittal, and S. Gupta, “An autonomous integrated system for 3-d underwater terrain map reconstruction,” in Proc. OCEANS'16 MTS/IEEE, Monterey, CA, USA, Sep. 2016, pp. 1–6. [<b><a href="https://ieeexplore.ieee.org/abstract/document/7761067">Paper</a></b>] -->
+
+<!--
 
 ## Coverage Path Planning using Neural Network
 
@@ -134,5 +137,7 @@ The CT-CPP algorithm is validated on a high-fidelity underwater simulator called
 **Related Paper:**
 - Z. Shen, J. P. Wilson, and S. Gupta, “ε*+: An online coverage path planning algorithm for energy-constrained autonomous vehicles,” in Proc. OCEANS'20 MTS/IEEE, Gulf Coast, MS, USA, Oct. 2020, pp. 1–6. [<b><a href="https://ieeexplore.ieee.org/document/9389353">Paper</a></b>]
 
-## 2D Coverage Path Planning Algorithm
+-->
+
+## 2D Coverage Path Planning
 Coming soon...
