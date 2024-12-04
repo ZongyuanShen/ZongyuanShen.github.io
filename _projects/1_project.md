@@ -68,7 +68,7 @@ The CT-CPP algorithm is validated on a high-fidelity underwater simulator called
     Figure 3: Performance evaluation for CT-CPP as compared to TF-CPP.
 </p>
 
-**Related Papers:**
+**Related Paper:**
 - Z. Shen, J. Song, K. Mittal, and S. Gupta, “CT-CPP: Coverage path planning for 3D terrain reconstruction using dynamic coverage trees,” IEEE Robotics and Automation Letters, vol. 7, no. 1, pp. 135–142, Jan. 2022. [<b><a href="https://ieeexplore.ieee.org/abstract/document/9573264">Paper</a></b>][<b><a href="https://drive.google.com/file/d/1XSsm64LvsbXlODqu2VYrISYYgJDlc3WC/view">Slide</a></b>]
 <!--
 - Z. Shen, J. Song, K. Mittal, and S. Gupta, “Autonomous 3-D mapping and safe-path planning for underwater terrain reconstruction using multi-level coverage trees,” in Proc. OCEANS'17 MTS/IEEE, Anchorage, AK, USA, Sep. 2017, pp. 1–6. [<b><a href="https://ieeexplore.ieee.org/document/8232157">Paper</a></b>]
