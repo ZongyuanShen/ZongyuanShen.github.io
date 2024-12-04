@@ -35,7 +35,7 @@ Typical path planning problems in static environments aim to optimize the path b
     Figure 1: Applications of dynamic motion planning algorithms.
 </p>
 
-## Reactive Motion Planning Algorithm
+## Reactive Motion Planning
 
 We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)**, that facilitates real-time reactive replanning in dynamic environments for uninterrupted navigation. It is initialized by constructing a RRT* tree rooted at the goal and an initial path is found using the tree. As the cobot moves, the path could be blocked by dynamic obstacles. A new path is replanned following three steps: 1) tree-pruning, 2) tree-repair, and 3) tree-optimization.
 
@@ -111,5 +111,5 @@ We proposed an algorithm, called **Self-Morphing Adaptive ReplanningTree (SMART)
 **Related Paper**
 - Z. Shen, J. P. Wilson, S. Gupta, and R. Harvey, “SMART: Self-morphing adaptive replanning tree,” IEEE Robotics and Automation Letters, vol. 8, no. 11, pp. 7312–7319, Sep. 2023. [<b><a href="https://ieeexplore.ieee.org/document/10250928">Paper</a></b>][<b><a href="https://github.com/ZongyuanShen/SMART">Code</a></b>][<b><a href="https://drive.google.com/file/d/1d_cqbyHNAHxAA4SC-DgQBfWWJfAHBIod/view?usp=drive_link">Slide</a></b>]
 
-## Proactive Motion Planning Algorithm
+## Proactive Motion Planning
 Coming soon...
