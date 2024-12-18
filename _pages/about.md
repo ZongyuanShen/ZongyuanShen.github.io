@@ -21,7 +21,7 @@ I am currently a postdoctoral fellow at [Robotics Institute](https://www.ri.cmu.
 **Research:** I am passionate about developing motion and path planning algorithms that allow the robots to perform various tasks safely in complex, dynamic, and unknown environments. In particular, my current research involves following topics:
 
 - **Motion Replanning:** plan a new path in response to the changes in the environment (e.g., obstacles appear, disappear, or move) using current information (reactive strategy) or predicted information of dynamic obstacles (proactive strategy) for uninterrupted safe navigation. Applications include multi-robot system, self-driving car in urban traffic, and service robot in an environment with pedestrians.
-- **Coverage Path Planning:** plan a path to enable a robot to cover all points in the area of interest to provide complete coverage of the unknown environments. Applications include floor cleaning, lawn mowing, seabed mapping, and arable farming.
+- **Coverage Path Planning:** plan a path to enable a robot to cover all points in the area of interest to provide complete coverage. Applications include floor cleaning, lawn mowing, seabed mapping, and arable farming.
 - **Autonomous Exploration:** generates a sequence of sensor (e.g., lidar, camera) viewpoints to explore and map the unknown environments to gather information. Applications include structure inspection, search and rescue, and environmental monitoring.
 
 **Feel free to contact me if you are interested in my research and want to discuss relevant research topic or potential collaborations.**
