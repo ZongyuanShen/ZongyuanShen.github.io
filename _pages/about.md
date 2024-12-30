@@ -24,4 +24,4 @@ I am currently a postdoctoral fellow at [<b>Robotics Institute</b>](https://www.
 - **Coverage Path Planning:** plan a path to enable a robot to cover all points in the area of interest to provide complete coverage. Applications include floor cleaning, lawn mowing, and seabed mapping.
 - **Autonomous Exploration:** generates a sequence of sensor viewpoints to explore and map the environments to gather information. Applications include structure inspection, search and rescue, and environmental monitoring.
 
-**Feel free to contact me if you are interested in my research and want to discuss relevant research topic or potential collaborations.**
+**Feel free to contact me if you are interested in my research and want to discuss potential collaborations.**
