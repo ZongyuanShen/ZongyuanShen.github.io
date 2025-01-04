@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a postdoctoral fellow at [<b>Robotics Institute</b>](https://www.ri.cmu.edu/) of [<b>Carnegie Mellon University</b>](https://www.cmu.edu/) advised by Prof. [<b>Matthew J. Travers</b>](https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/) and Prof. [<b>Howie Choset</b>](https://www.ri.cmu.edu/ri-faculty/howie-choset/). I received the M.S. and Ph.D. degrees in Electrical Engineering from [<b>University of Connecticut</b>](https://uconn.edu/) in 2017 and 2024, respectively. Before that, I received the B.E. degree from Heilongjiang University of Science and Technology, China in 2014. 
+I am currently a postdoctoral fellow at [<b>Robotics Institute</b>](https://www.ri.cmu.edu/) of [<b>Carnegie Mellon University</b>](https://www.cmu.edu/) advised by Prof. [<b>Matthew J. Travers</b>](https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/) and Prof. [<b>Howie Choset</b>](https://www.ri.cmu.edu/ri-faculty/howie-choset/). I received the M.S. and Ph.D. degrees in Electrical Engineering from [<b>University of Connecticut</b>](https://uconn.edu/) in 2017 and 2024, respectively. Before that, I received the B.E. degree from Heilongjiang University of Science and Technology, China in 2014. 
 
 **Research:** I am passionate about developing motion and path planning algorithms that allow the robots to perform various tasks safely in complex, dynamic, and unknown environments. In particular, my current research involves following topics:
 
