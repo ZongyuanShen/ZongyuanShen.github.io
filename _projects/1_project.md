@@ -9,7 +9,7 @@ related_publications:
 ---
 
 ## Introduction
-Typical operations of autonomous vehicles such as terrain mapping, arable farming, floor cleaning, structural inspection, lawn mowing, oil spill cleaning, humanitarian demining, usually require covering of all points in the search area, i.e., _Coverage Path Planning_ (CPP). Often, these operations are performed in either completely unknown or partially known environments where the information on the exact geometrical shapes and locations, of obstacles and map boundaries, may be incorrect or incomplete. Therefore, it is essential to utilize online (i.e., sensor-based) CPP methods that can dynamically unfold the environment via discovering unknown obstacles on the path; thus facilitating online trajectory adaptation, obstacle avoidance, mapping boundaries, and complete coverage.
+Coverage path planning (CPP) has been utilized in a variety of real-world robotic applications, such as seabed mapping, structural inspection, spray painting surfaces, floor cleaning, and aerial surveying. CPP methods are broadly classified as offline or online. Offline methods rely on prior information of the environments to design coverage paths, which can be highly effective in ideal conditions. However, their performance degrades if the prior information is incomplete and/or incorrect. Therefore, it is essential to develop online CPP methods, which adapt the coverage path in realtime based on the collected environmental information.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
