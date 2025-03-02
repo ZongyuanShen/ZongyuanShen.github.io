@@ -38,7 +38,7 @@ Efficient coverage of unknown environments requires robots to adapt their paths 
 - Z. Shen, J. Song, K. Mittal, and S. Gupta, “Autonomous 3-D mapping and safe-path planning for underwater terrain reconstruction using multi-level coverage trees,” in MTS/IEEE OCEANS, 2017, pp. 1–6. [<b><a href="https://ieeexplore.ieee.org/document/8232157">Paper</a></b>]
 
 **Overview:**
-Proposed algorithm performs layered scanning of the 3D region to collect terrain data guided by a coverage tree (CT). Once the robot reaches a node, it covers the corresponding subregion and collects data for the 3D terrain structures below it. Then, the robot projects the information about obstacles intersecting the plane below by forming a 2D occupancy map, which is used to identify the disconnected subregions on that plane. i.e., it adds child nodes to the CT. The updated tree is then used to plan an optimal tree traversal sequence. The above process continues until no unvisited node available on the tree.
+Proposed algorithm performs layered scanning of the 3D region to collect terrain data guided by a coverage tree. Once the robot reaches a node, it covers the corresponding subregion and collects data for the 3D terrain structures below it. Then, the robot projects the information about obstacles intersecting the plane below by forming a 2D occupancy map, which is used to identify the disconnected subregions on that plane. i.e., it adds child nodes to the CT. The updated tree is then used to plan an optimal tree traversal sequence. The above process continues until no unvisited node available.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
