@@ -32,7 +32,7 @@ Coming soon...
 - Z. Shen, J. Song, K. Mittal, and S. Gupta, “CT-CPP: Coverage path planning for 3D terrain reconstruction using dynamic coverage trees,” IEEE Robotics and Automation Letters, vol. 7, no. 1, pp. 135–142, Jan. 2022. [<b><a href="https://ieeexplore.ieee.org/abstract/document/9573264">Paper</a></b>]
 - Z. Shen, J. Song, K. Mittal, and S. Gupta, “Autonomous 3-D mapping and safe-path planning for underwater terrain reconstruction using multi-level coverage trees,” in MTS/IEEE OCEANS, 2017, pp. 1–6. [<b><a href="https://ieeexplore.ieee.org/document/8232157">Paper</a></b>]
 
-**Method Overview:**
+**Overview:**
 Due to sensing limitations, the proposed CT-CPP algorithm performs layered scanning of the 3D region to collect terrain data guided by a coverage tree (CT). Once the robot reaches a node, it covers the corresponding subregion using a 2D CPP algorithm. During the coverage of each planar subregion, the robot collects data for the 3D terrain structures below. Based on the data, the robot projects and stores the information about obstacles intersecting the plane below by forming a 2D occupancy map, which is used to identify the disconnected subregions on that plane. i.e., it adds child nodes to the CT. The updated tree is then used to plan an optimal tree traversal sequence by solving a traveling salesman problem. The above process continues until no unvisited node available on the tree.
 
 <div class="row">
