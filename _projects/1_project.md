@@ -40,15 +40,12 @@ Coming soon...
 
 ## Coverage Path Planning of 3D Underwater Terrain
 
-**Motivation:**
-Existing CPP methods are of two types: 2D and 3D. While 2D methods are applied for tasking on 2D surfaces (e.g., floor cleaning and lawn mowing), they are rendered insufficient for applications involving 3D surfaces. For example, a 2D CPP method can be applied for mapping a 3D underwater terrain by operating an autonomous underwater vehicle (AUV) at a fixed depth, such that the side-scan sonar can scan the seabed. However, this method will be unable to explore the regions above the AUV, thus generating an incomplete terrain map. On the other hand, if the AUV is operated at a higher level, then the sensors will be unable to scan the terrain due to their limited field of view. Therefore, a 3D CPP method is needed for 3D terrain mapping.
+**Related Paper:**
+- Z. Shen, J. Song, K. Mittal, and S. Gupta, “CT-CPP: Coverage path planning for 3D terrain reconstruction using dynamic coverage trees,” IEEE Robotics and Automation Letters, vol. 7, no. 1, pp. 135–142, Jan. 2022. [<b><a href="https://ieeexplore.ieee.org/abstract/document/9573264">Paper</a></b>]
+- Z. Shen, J. Song, K. Mittal, and S. Gupta, “Autonomous 3-D mapping and safe-path planning for underwater terrain reconstruction using multi-level coverage trees,” in MTS/IEEE OCEANS, 2017, pp. 1–6. [<b><a href="https://ieeexplore.ieee.org/document/8232157">Paper</a></b>]
 
 **Method Overview:**
-We proposed a 3D CPP algorithm, called CT-CPP, using a coverage tree (CT), where the nodes (except the root node) of CT represent the disconnected subregions, as shown in Figure 2. CT-CPP incrementally builds a CT in a top-down manner, which is used to plan and track the progress of 3D coverage. 
-
-Once the AUV reaches a node, it covers the corresponding subregion using a [2D CPP algorithm](https://ieeexplore.ieee.org/abstract/document/8286947). During the coverage of each planar subregion, the AUV uses the downward-facing multi-beam sonar sensor to collect data for the 3D terrain structures that are within the sensor’s range extended at least up to the plane below. Based on the data, the AUV projects and stores the information about obstacles intersecting the plane below by forming a 2D probabilistic occupancy map [(POM)](https://mitpress.mit.edu/9780262201629/probabilistic-robotics/). Since the underwater terrain may contain narrow regions which can be risky for the AUV to navigate and avoid collisions, an image morphological operator [‘closing’](https://link.springer.com/book/10.1007/978-3-662-05088-0) is applied on the POM to close the narrow areas. Subsequently, a symbolic map is obtained such that the cells whose occupancy probability is higher than the threat probability are marked as threat, while the others are marked as safe. This serves two purposes: i) the updated symbolic map is used to identify the disconnected subregions on that plane. i.e., it adds child nodes to the CT, and ii) it ensures the AUV’s safety when it navigates on that plane.
-
-The updated tree is then used to plan the AUV trajectory by generating an optimized tree traversal sequence using a heuristics-based solution to the traveling salesman problem. The above process continues until the AUV completes the coverage of all nodes of the tree and no new nodes are created. Then, the data collected from all nodes are integrated offline for complete 3D terrain reconstruction using [α-Shape algorithm](https://en.wikipedia.org/wiki/Alpha_shape).
+Due to sensing limitations, the proposed CT-CPP algorithm performs layered scanning of the 3D region to collect terrain data guided by a coverage tree (CT). CT-CPP is illustrated in Figure 2. Once the robot reaches a node, it covers the corresponding subregion using a 2D CPP algorithm. During the coverage of each planar subregion, the robot collects data for the 3D terrain structures below. Based on the data, the robot projects and stores the information about obstacles intersecting the plane below by forming a 2D occupancy map, which is used to identify the disconnected subregions on that plane. i.e., it adds child nodes to the CT. The updated tree is then used to plan an optimal tree traversal sequence by solving a traveling salesman problem. The above process continues until no unvisited node available on the tree.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -56,7 +53,7 @@ The updated tree is then used to plan the AUV trajectory by generating an optimi
     </div>
 </div>
 <p align="center" style="font-size:0.9rem;">
-    Figure 2: Incremental construction of the coverage tree.
+    Figure 2: Illustration of the CT-CPP algorithm.
 </p>
 
 **Results:**
@@ -70,6 +67,3 @@ The CT-CPP algorithm is validated on a high-fidelity underwater simulator called
 <p align="center" style="font-size:0.9rem;">
     Figure 3: Performance evaluation for CT-CPP as compared to TF-CPP.
 </p>
-
-**Related Paper:**
-- Z. Shen, J. Song, K. Mittal, and S. Gupta, “CT-CPP: Coverage path planning for 3D terrain reconstruction using dynamic coverage trees,” IEEE Robotics and Automation Letters, vol. 7, no. 1, pp. 135–142, Jan. 2022. [<b><a href="https://ieeexplore.ieee.org/abstract/document/9573264">Paper</a></b>]
