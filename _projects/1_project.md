@@ -23,7 +23,7 @@ Coverage path planning (CPP) has been utilized in a variety of real-world roboti
     </div>
 </div>
 
-## Hierarchical Coverage Path Planning
+## Topic 1: Hierarchical Coverage Path Planning
 
 **Related Paper:**
 - Z. Shen, B. Shirose, P. Sriganesh, and M.Travers, “CAP: A Connectivity-Aware Hierarchical Coverage Path Planning Algorithm for Unknown Environments using Coverage Guidance Graph,” IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025 (Submitted). [<b><a href="http://arxiv.org/abs/2503.00647">Paper</a></b>][<b><a href="https://youtu.be/1pH-PkcRVZg">Video</a></b>]
@@ -37,7 +37,7 @@ src="https://github.com/user-attachments/assets/4cfec916-dfb9-4a24-9ff1-0c33120e
 </iframe>
 </center>
 
-## Coverage Path Planning of 3D Underwater Terrain
+## Topic 2: Coverage Path Planning of 3D Underwater Terrain
 
 **Related Papers:**
 - Z. Shen, J. Song, K. Mittal, and S. Gupta, “CT-CPP: Coverage path planning for 3D terrain reconstruction using dynamic coverage trees,” IEEE Robotics and Automation Letters, vol. 7, no. 1, pp. 135–142, Jan. 2022. [<b><a href="https://ieeexplore.ieee.org/abstract/document/9573264">Paper</a></b>]
