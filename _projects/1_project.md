@@ -37,8 +37,6 @@ src="https://github.com/user-attachments/assets/4cfec916-dfb9-4a24-9ff1-0c33120e
 </iframe>
 </center>
 
-<object vspace="20"> 
-
 ## Topic 2: 3D Underwater Terrain Mapping
 
 **Related Papers:**
