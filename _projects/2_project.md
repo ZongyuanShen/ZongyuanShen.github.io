@@ -38,10 +38,6 @@ We proposed an algorithm, called Self-Morphing Adaptive ReplanningTree (SMART), 
 </div>
 
 **Performance Comparison with State-of-the-art**
-- Robot: holonomic model with constant speed of 4m/s.
-- Dynamic obstacle: holonomic model with different speeds.
-- Scenario: 66m × 38m factory environment with static obstacle layout and 10 dynamic obstacles.
-- Metrics: 1) Replanning time: Time to replan a new path, 2) Success rate: Fraction of successful runs out of the total, and 3) Travel time: Time from start to goal without collision.
 - Baseline algorithms: [D* Lite](https://cdn.aaai.org/AAAI/2002/AAAI02-072.pdf), [ERRT](https://ieeexplore.ieee.org/abstract/document/1041624), [DRRT](https://ieeexplore.ieee.org/document/1641879), [MPRRT](https://ieeexplore.ieee.org/document/4209317), [RRTX](https://journals.sagepub.com/doi/full/10.1177/0278364915594679), [HLRRT](https://link.springer.com/article/10.1007/s10514-019-09879-8)*, [EBGRRT](https://www.sciencedirect.com/science/article/abs/pii/S0921889020304358), [MODRRT*](https://ieeexplore.ieee.org/document/9115288).
 
 <div class="row">
@@ -51,10 +47,6 @@ We proposed an algorithm, called Self-Morphing Adaptive ReplanningTree (SMART), 
 </div>
 
 **Demo 1: Navigation in Dynamic Environments**
-- Robot: holonomic model with constant speed of 4m/s.
-- Dynamic obstacle: holonomic model with constant speed of 4m/s.
-- Scenario: 32m × 32m open space with 15 dynamic obstacles.
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMARTvsbaselineAlg_dynEnv_15obs_scene1.gif" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -67,10 +59,6 @@ We proposed an algorithm, called Self-Morphing Adaptive ReplanningTree (SMART), 
 </div>
 
 **Demo 2: Real Experiment in Dynamic Lab Scenario**
-- Robot: [ROSMASTER X3](https://category.yahboom.net/collections/ros-robotics/products/rosmaster-x3) equipped with 1) a RPLIDAR S2L lidar with a range of 8 m for obstacle detection, 2) MD520 motor with encoder for detection of rotation angle and linear displacement, and 3) MPU9250 IMU for detection of speed, acceleration, and orientation.
-- Localization: An Extended Kalman Filter is used to fuse data from the IMU and motor encoder for localization.
-- Scenario: 7m × 7m lab space with a static layout and three humans.
-
 <div class="row">
      <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_experiment.gif" title="example image" class="img-fluid rounded z-depth-1"%}
@@ -78,10 +66,6 @@ We proposed an algorithm, called Self-Morphing Adaptive ReplanningTree (SMART), 
 </div>
 
 **Demo 3: Navigation in Unknown Environments**
-- Robot: holonomic model with constant speed of 4m/s and a lidar with a range of 8m for static obstacle detection.
-- Scenario 1: 62m × 32m indoor office environment.
-- Scenario 2: 62m × 32m outdoor forest environment.
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_unknownEnv_scene1.gif" title="example image" class="img-fluid rounded z-depth-1"%}
