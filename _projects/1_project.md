@@ -53,10 +53,6 @@ src="https://github.com/user-attachments/assets/4cfec916-dfb9-4a24-9ff1-0c33120e
         {% include figure.html path="assets/img/CPP_4.svg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
-**Results:**
-The CT-CPP algorithm is validated on a high-fidelity underwater simulator called [UWSim](https://wiki.ros.org/uwsim). The comparative evaluation results of the CT-CPP with the terrain following CPP [(TF-CPP)](https://link.springer.com/article/10.1007/BF00141150) methods is presented in Figure 3. Overall, CT-CPP performs better in all five scenes.
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/CPP_5.svg" title="example image" class="img-fluid rounded z-depth-1" %}
