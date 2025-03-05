@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Coverage Path Planning in Unknown Environments
+title: Online Coverage Path Planning
 description:
 img: assets/img/Picture2.jpg
 importance: 1
