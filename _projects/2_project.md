@@ -37,8 +37,7 @@ We proposed an algorithm, called Self-Morphing Adaptive ReplanningTree (SMART), 
     </div>
 </div>
 
-**Performance Comparison with State-of-the-art**
-- Baseline algorithms: [D* Lite](https://cdn.aaai.org/AAAI/2002/AAAI02-072.pdf), [ERRT](https://ieeexplore.ieee.org/abstract/document/1041624), [DRRT](https://ieeexplore.ieee.org/document/1641879), [MPRRT](https://ieeexplore.ieee.org/document/4209317), [RRTX](https://journals.sagepub.com/doi/full/10.1177/0278364915594679), [HLRRT](https://link.springer.com/article/10.1007/s10514-019-09879-8)*, [EBGRRT](https://www.sciencedirect.com/science/article/abs/pii/S0921889020304358), [MODRRT*](https://ieeexplore.ieee.org/document/9115288).
+**Baseline algorithms:** [D* Lite](https://cdn.aaai.org/AAAI/2002/AAAI02-072.pdf), [ERRT](https://ieeexplore.ieee.org/abstract/document/1041624), [DRRT](https://ieeexplore.ieee.org/document/1641879), [MPRRT](https://ieeexplore.ieee.org/document/4209317), [RRTX](https://journals.sagepub.com/doi/full/10.1177/0278364915594679), [HLRRT](https://link.springer.com/article/10.1007/s10514-019-09879-8)*, [EBGRRT](https://www.sciencedirect.com/science/article/abs/pii/S0921889020304358), [MODRRT*](https://ieeexplore.ieee.org/document/9115288).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -46,7 +45,6 @@ We proposed an algorithm, called Self-Morphing Adaptive ReplanningTree (SMART), 
     </div>
 </div>
 
-**Demo 1: Navigation in Dynamic Environments**
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMARTvsbaselineAlg_dynEnv_15obs_scene1.gif" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -58,14 +56,12 @@ We proposed an algorithm, called Self-Morphing Adaptive ReplanningTree (SMART), 
     </div>
 </div>
 
-**Demo 2: Real Experiment in Dynamic Lab Scenario**
 <div class="row">
      <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_experiment.gif" title="example image" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
 
-**Demo 3: Navigation in Unknown Environments**
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/SMART_unknownEnv_scene1.gif" title="example image" class="img-fluid rounded z-depth-1"%}
