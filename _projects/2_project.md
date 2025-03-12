@@ -25,7 +25,7 @@ Typical path planning problems in static environments aim to optimize the path b
 
 ## Topic 1: Reactive Motion Planning
 
-**Related Paper:** Z. Shen, J. P. Wilson, S. Gupta, and R. Harvey, “SMART: Self-morphing adaptive replanning tree,” **IEEE Robotics and Automation Letters**, vol. 8, no. 11, pp. 7312–7319, Sep. 2023. [<b><a href="https://ieeexplore.ieee.org/document/10250928">Paper</a></b>][<b><a href="https://github.com/ZongyuanShen/SMART">Code</a></b>]
+**Z. Shen**, J. P. Wilson, S. Gupta, and R. Harvey, “SMART: Self-morphing adaptive replanning tree,” **IEEE Robotics and Automation Letters**, vol. 8, no. 11, pp. 7312–7319, Sep. 2023. [<b><a href="https://ieeexplore.ieee.org/document/10250928">Paper</a></b>][<b><a href="https://github.com/ZongyuanShen/SMART">Code</a></b>]
 
 **Overview:**
 We proposed an algorithm, called Self-Morphing Adaptive ReplanningTree (SMART), that facilitates real-time reactive replanning in dynamic environments for uninterrupted navigation. SMART performs risk-based tree-pruning if the current path is obstructed by nearby moving obstacle(s), resulting in multiple disjoint subtrees. Then, for speedy recovery, it exploits these subtrees and performs informed tree-repair at the intersection of subtrees to find a new path. 
