@@ -25,7 +25,7 @@ Coverage path planning (CPP) has been utilized in a variety of real-world roboti
 
 ## Topic 1: Hierarchical Coverage Path Planning
 
-**Z. Shen**, B. Shirose, P. Sriganesh, and M.Travers, “CAP: A Connectivity-Aware Hierarchical Coverage Path Planning Algorithm for Unknown Environments using Coverage Guidance Graph,” Submitted to IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025. [<b><a href="http://arxiv.org/abs/2503.00647">Paper</a></b>][<b><a href="https://youtu.be/1pH-PkcRVZg">Video</a></b>]
+**Z. Shen**, B. Shirose, P. Sriganesh, and M.Travers, “CAP: A Connectivity-Aware Hierarchical Coverage Path Planning Algorithm for Unknown Environments using Coverage Guidance Graph,” Submitted to IEEE/RSJ International Conference on Intelligent Robots and Systems **(IROS)**, 2025. [<b><a href="http://arxiv.org/abs/2503.00647">Paper</a></b>][<b><a href="https://youtu.be/1pH-PkcRVZg">Video</a></b>]
 
 **Overview:**
 Existing CPP methods generate well-defined coverage patterns and ensure complete coverage in finite time, but prioritize immediate cost minimization, not considering a global perspective of the entire search area. These myopic decisions result in inefficient global coverage paths. In this regard , we introduce CAP, a connectivity-aware hierarchical coverage path planning algorithm for efficient coverage of unknown environments. CAP incrementally constructs a coverage guidance graph to capture the global topological structure of the environment. Based on the updated graph, the hierarchical planner determines an efficient path to maximize global coverage efficiency and minimize local coverage time.
