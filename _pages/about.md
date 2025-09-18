@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a postdoctoral fellow at [<b>Robotics Institute</b>](https://www.ri.cmu.edu/), [<b>Carnegie Mellon University</b>](https://www.cmu.edu/), advised by Prof. [<b>Howie Choset</b>](https://www.ri.cmu.edu/ri-faculty/howie-choset/) and Prof. [<b>Matthew Travers</b>](https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/). Before that, I received my Ph.D. degree in Electrical Engineering from [<b>University of Connecticut</b>](https://uconn.edu/).
+I am a postdoctoral fellow at [<b>Robotics Institute</b>](https://www.ri.cmu.edu/), [<b>Carnegie Mellon University</b>](https://www.cmu.edu/), advised by Prof. [<b>Matthew Travers</b>](https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/) and Prof. [<b>Howie Choset</b>](https://www.ri.cmu.edu/ri-faculty/howie-choset/). Before that, I received my Ph.D. degree in Electrical Engineering from [<b>University of Connecticut</b>](https://uconn.edu/).
 
 **Research:** I am passionate about developing motion and path planning algorithms that allow the robots to perform various tasks safely in complex, dynamic, and unknown environments. In particular, my current research involves following topics:
 
